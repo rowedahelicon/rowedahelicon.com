@@ -1,5 +1,5 @@
 <section class="p-2 text-white">
-    <img src="https://www.rowdys.art/assets/images/stargazer.png" alt="Rowdy" class="border-solid border-0 md:border-8 border-black/70">
+    <img src="https://www.rowdys.art/assets/images/stargazer.webp" alt="Rowdy" class="border-solid border-0 md:border-8 border-black/70">
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-5">
         <div class="text-normal">
