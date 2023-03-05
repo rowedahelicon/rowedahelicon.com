@@ -7,13 +7,13 @@
             <a href="https://steamcommunity.com/id/rowedahelicon/">Steam</a><br>
             <a href="https://t.me/Rowedahelicon">Telegram</a><br>
             <a href="https://www.twitter.com/rowedahelicon">Twitter</a><br>
-            <a href="https://www.weasyl.com/~rowedahelicon">Weasyl</a><br>
+            <a href="https://www.weasyl.com/~rowedahelicon">Weasyl</a>
         </div>
         <div>
             <h1 class="text-2xl aero">Projects</h1>
-            <a href="https://www.scritch.works">ScritchWorks</a>
-            <br>
-            <a href="https://www.scg.wtf/">Southern Cross Gaming</a>
+            <a href="https://www.scritch.works">ScritchWorks</a><br>
+            <a href="https://www.scg.wtf/">Southern Cross Gaming</a><br>
+            <a href="https://trello.com/u/rowedahelicon">Trello</a>
         </div>
         <div>
             <h1 class="text-2xl aero">Things I Like</h1>
@@ -23,17 +23,12 @@
             <a href="https://swordscomic.com/">Swords Comic</a><br>
             <a href="http://thewebsiteisdown.com/">The Website is Down</a><br>
             <a href="http://webcomicname.com/">Webcomicname</a><br>
-            <a href="http://www.whompcomic.com/">Whomp! Comic</a><br>
+            <a href="http://www.whompcomic.com/">Whomp! Comic</a>
         </div>
         <div>
             <h1 class="text-2xl aero">Support</h1>
-            <a href="https://fogsland.tumblr.com/">Fogsland</a><br>
-            <a href="https://www.bonequest.com/">Bonequest</a><br>
-            <a href="https://somafm.com/">Soma.FM</a><br>
-            <a href="https://swordscomic.com/">Swords Comic</a><br>
-            <a href="http://thewebsiteisdown.com/">The Website is Down</a><br>
-            <a href="http://webcomicname.com/">Webcomicname</a><br>
-            <a href="http://www.whompcomic.com/">Whomp! Comic</a><br>
+            <a href="https://ko-fi.com/rowedahelicon">Ko-fi</a><br>
+            <a href="https://www.patreon.com/rowedahelicon">Patreon</a>
         </div>
     </div>
 </div>
