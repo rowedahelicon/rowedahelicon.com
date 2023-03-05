@@ -1,0 +1,38 @@
+html {
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body{
+    background-color: #043138;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    
+}
+
+@keyframes flickerAnimation{0%{opacity:1}50%{opacity:0}100%{opacity:1}}.animate-flicker{opacity:1;animation:flickerAnimation 5s infinite}#stars_1{animation:flickerAnimation 4s infinite;background-image:url(../images/star_1.png);width:100%;height:800px;position:fixed;left:45%;transform:translate(-45%,-50%);z-index:-10;opacity:1;background-repeat:repeat-x}#stars_2{animation:flickerAnimation 9s infinite;background-image:url(../images/star_2.png);width:100%;height:800px;position:fixed;left:55%;transform:translate(-55%,-50%);z-index:-10;opacity:1;background-repeat:repeat-x}#stars_3{animation:flickerAnimation 7s infinite;background-image:url(../images/star_3.png);width:100%;height:800px;position:fixed;left:50%;transform:translate(-50%,-50%);z-index:-10;opacity:1;background-repeat:repeat-x}
+
+nav {
+    background-color: #001824;
+}
+
+main {
+    background-color: #0F0F0F;
+}
+
+section {
+    background-color: #043138;
+}
+
+.stripes-1 {
+	background-color: #394551;
+	background-image: repeating-linear-gradient(45deg,transparent,transparent 35px,#525e6a 35px,#525e6a 70px);
+}
+
+.light {
+	background-color: #434c5a;
+}
+
+hr.light {
+	border-top: 10px solid #505b6b;
+}
