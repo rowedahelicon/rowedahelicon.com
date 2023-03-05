@@ -6,8 +6,8 @@
 <html lang="en-US">
 	<head>
         <title><?php echo $GLOBALS['config']['title']; ?></title>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="assets/css/main.min.css">
         <link rel="stylesheet" href="assets/css/tailwind.min.css">
         <link href="assets/fontawesome/fontawesome.min.css" rel="stylesheet">
