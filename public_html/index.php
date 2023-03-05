@@ -31,16 +31,16 @@
                 <div class="flex-auto aero text-white text-8xl leading-none text-center mt-5 mb-0">
                     Rowedahelicon
                 </div>
+                <div class="h-12 stripes-2"></div>
                 <?php if( count( $GLOBALS['nav'] ) > 0 ): ?>
-                    <ol class="list-reset flex p-3 text-normal text-gray-200 font-semibold">
+                    <ol class="list-reset flex p-2 text-normal text-gray-200 font-semibold pb-0">
                         <li><a href="/">Home</a></li>
                         <?php foreach( $GLOBALS['nav'] as $key => $value ): ?>
                             <li><span class="mx-2">/</span></li>
                             <?php echo (array_key_last( $GLOBALS['nav'] ) == $key ) ? '<li>'.$key.'</li>' : '<li><a href="'.$value.'">'.$key.'</a></li>'; ?>
                         <?php endforeach; ?>
                     </ol>
-                    <?php endif; ?>
-                <div class="h-12 stripes-2"></div>
+                <?php endif; ?>
             </Header>
             <main class="p-2">
                 <?php include( $GLOBALS['config']['private_folder'].'/frontend/_config.php' );?>

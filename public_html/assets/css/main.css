@@ -133,3 +133,7 @@ hr.light {
     color:#007b9d;
     text-decoration:none
    }
+
+   .pb-0 {
+    padding-bottom: 0 !important;
+   }
