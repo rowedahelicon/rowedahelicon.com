@@ -1,29 +1,28 @@
 /* TEAM */
 	Rowedahelicon
-	Site: http://www.rowedahelicon.com
-	Twitter : @rowedahelicon
-	Location : Planet Earth
+	Site: 		http://www.rowedahelicon.com
+	Discord: 		rowedahelicon#1337
+	Twitter: 		@rowedahelicon
+	Location: 		Planet Earth
 
 /* SITE */
 
-	Last Update : Always
+	Last Update: 	3/5/2023
 	URL:			http://www.rowedahelicon.com
 	Language:		English
 	Doctype:		HTML5
 
 /* FONTS */
 
-	Fusion
-	https://github.com/NR74W/WipEout-Fonts
-
-	Additional Fonts
-	FontAwesome
+	FontAwesome: 	https://fontawesome.com/
+	Fusion: 		https://github.com/NR74W/WipEout-Fonts
 
 /* MADE WITH */
 
 	HTML5
 	CSS3
 	PHP
+	Tailwind CSS:	https://tailwindcss.com/
 	
 /* SOFTWARE */
 
@@ -36,5 +35,5 @@
 
 /* THANKS TO */
 
-	Everyone in my life who pushes me to do this stuff.
+	Everyone in my life who supports me in my endeavours. <3
 

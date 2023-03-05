@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /crux.html
+Disallow: /assets/*
