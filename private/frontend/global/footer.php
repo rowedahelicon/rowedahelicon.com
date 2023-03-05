@@ -38,7 +38,7 @@
     </div>
 </div>
 <div class="bg-darker text-white p-2 font-semibold">
-    <i class="fa-solid fa-copyright"></i> 2007 - 2023 Rowedahelicon <a href="">HTML</a> <a href="">CSS</a> <a href="https://github.com/rowedahelicon/Website">Github</a>
+    <i class="fa-solid fa-copyright"></i> 2007 - 2023 Rowedahelicon <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwww.rowedahelicon.com%2F">HTML</a> <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwww.rowedahelicon.com%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">CSS</a> <a href="https://github.com/rowedahelicon/Website">Github</a>
     <div class="float-right">
         <a href="/humans.txt"><img src="https://www.rowdys.art/assets/images/humanstxt-transparent-color.png" alt="humans.txt"></a>
     </div>
