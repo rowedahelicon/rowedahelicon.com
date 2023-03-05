@@ -1,0 +1,40 @@
+/* TEAM */
+	Rowedahelicon
+	Site: http://www.rowedahelicon.com
+	Twitter : @rowedahelicon
+	Location : Planet Earth
+
+/* SITE */
+
+	Last Update : Always
+	URL:			http://www.rowedahelicon.com
+	Language:		English
+	Doctype:		HTML5
+
+/* FONTS */
+
+	Fusion
+	https://github.com/NR74W/WipEout-Fonts
+
+	Additional Fonts
+	FontAwesome
+
+/* MADE WITH */
+
+	HTML5
+	CSS3
+	PHP
+	
+/* SOFTWARE */
+
+	Visual Studio Code
+
+
+/* HOSTED BY */
+
+	Digital Ocean - https://www.digitalocean.com/
+
+/* THANKS TO */
+
+	Everyone in my life who pushes me to do this stuff.
+

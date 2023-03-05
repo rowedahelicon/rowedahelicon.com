@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/rowedahelicon
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://rowedahelicon.com
+  * I am rowedahelicon (https://keybase.io/rowedahelicon) on keybase.
+  * I have a public key with fingerprint 8DD4 F184 2CEB C55C F19A  2D66 8D94 5600 8702 19AC
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01015d77365e18e8deb8b3112a983b2aef85332c84c7ad5c9075c66bc628bd5d7b6c0a",
+            "fingerprint": "8dd4f1842cebc55cf19a2d668d945600870219ac",
+            "host": "keybase.io",
+            "key_id": "8d945600870219ac",
+            "kid": "01015d77365e18e8deb8b3112a983b2aef85332c84c7ad5c9075c66bc628bd5d7b6c0a",
+            "uid": "64ff3f6a689e10bc4844e9c1697ebe19",
+            "username": "rowedahelicon"
+        },
+        "service": {
+            "hostname": "rowedahelicon.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1456603572,
+    "expire_in": 157680000,
+    "prev": "88146911381a38f7410ae618ce8100b587a1033b6c8e1cf622e71cc55dba3495",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIpAnicrVJbSBRRGN5NbVmjLC9dKIzmrVy3OXM5c2YhVMgwH8KgsouwzJw5o4Pu
+zjo73iq1l0KJ1EiskDAsKkOEoAt0gbU0qCTTBwnMMqRQKJNWlAqqM1JvPXZeDuf/
+v+/7//87/8DKBFeyO//HyabMyoJB94v+y1WuA6Pu28cY1dTqmMAxppwsXaRCI1E7
+WG5oTIBhAQtETZJ4KBKACNKIilQeAE6REa9yCtGRyPMcRgKWFE3EMiuJGEIVQw6p
+GmWqELMK42N0I1xKrIhlhG0qizRN0AESOExULIpYB7LCaRAiTRZEyLJIYjkawpRY
+ZkYdBm1OVaLEb5g0Rh/Bpfb+gf/PfVctyUFB13kdKhDJBLAqFpAgEBkDKEtEJUB2
+gFFihZUQoWjLrCGaUkYqDGyGmXofQ1PVBiaOu844/4L5sRmiKhHLtE1sVtB0mW1H
+Ag7bros48BqiBv8IBVUjrFFDKaGaWFGDVgkAisS24SgD6glkeVHifAypjRgWCRoO
+QpQgYulxypBqxz4EBCgDwCOg8EiXBMAqBAKECQIsq4pIUgDL89QLRADWIccRCWD6
+YZqq8IIsMs5olWGTCfC0TaWUSkaN0rBiV1mEqX8cK0l0uZNdy5OWOYvmSvau/rt+
+uQc9v3a1lUf6evXG8HxGD2g72u259rL22w7PtckrTYXNP89dzZzoaoguNMT3pfm2
+x2Yb42u/XJ/c0PrmaPdiwufp/uELm3K3vip+dKLlNbx3pKPkVJI2u75v4WlB3fms
+dfPvGz+PV549vObO2xdH0tNQd3v2XM9Yyic9sSaw//vIA9/+jluHPBkXrWjH3bHj
+/vSGoo7OUM7zDwWDNU9G7JnFZ707OyvGpsaZS2MrYl+9y/b68xHX3tUyLOedjuUX
+7o6vTp2+/yv70JapPbmbRfgps9N7Y9vDhY8DM6FW7wSePFPct3XmWd7c0FNPihT8
+MTq0MV6XeLMorzkrJ5WMv1sVqi2ccP0GZ3lIDQ==
+=s/Yj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/rowedahelicon
+
+==================================================================
