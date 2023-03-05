@@ -38,7 +38,7 @@
     </div>
 </div>
 <div class="bg-darker text-white p-2 font-semibold">
-    <i class="fa-solid fa-copyright"></i> 2007 - 2023 Rowedahelicon <a href="">HTML</a> <a href="">CSS</a>
+    <i class="fa-solid fa-copyright"></i> 2007 - 2023 Rowedahelicon <a href="">HTML</a> <a href="">CSS</a> <a href="https://github.com/rowedahelicon/Website">Github</a>
     <div class="float-right">
         <a href="/humans.txt"><img src="https://www.rowdys.art/assets/images/humanstxt-transparent-color.png" alt="humans.txt"></a>
     </div>
