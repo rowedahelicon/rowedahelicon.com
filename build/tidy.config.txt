@@ -1,0 +1,5 @@
+indent: auto
+indent-spaces: 2
+drop-empty-elements: no
+show-info: no
+show-warnings: yes

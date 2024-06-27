@@ -1,0 +1,47 @@
+{
+    "settings":
+    {
+        "base_file": "base.php",
+        "build_location": "/var/www/html/SCG/public_html/",
+        "title": "Rowdy the Crux",
+        "description": "",
+        "url": "http://172.27.153.222/",
+        "url_no_slash": "http://172.27.153.222",
+        "css": 
+        [
+            "#{url}css/tw.min.css"
+        ]
+    },
+    "pages": 
+    {
+        "index.html": 
+        {
+            "settings": 
+            {
+                "this_page": "https://rowedahelicon.com",
+                "title": "Hello, hi!",
+                "description": "Rowedahelicon's personal website!",
+                "content": "index.php"
+            }
+        },
+        "fursona.html":
+        {
+            "settings": 
+            {
+                "this_page": "https://rowedahelicon.com/fursona.html",
+                "title": "Crux Lore",
+                "description": "Making the mystery not so mysterious~",
+                "content": "fursona.php"
+            }
+        },
+        "revision.html":
+        {
+            "settings": 
+            {
+                "this_page": "https://rowedahelicon.com/revision.html",
+                "title": "Revision History",
+                "content": "revision.php"
+            }
+        }
+    }
+}
