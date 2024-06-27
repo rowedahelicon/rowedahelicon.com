@@ -1,0 +1,27 @@
+{
+    "settings":
+    {
+        "base_file": "base.php",
+        "build_location": "public_html/",
+        "title": "Open Graph page title",
+        "description": "OpenGraph page description",
+        "url": "main url with trailing slash",
+        "css": 
+        [
+            "#{url}css/tw.min.css"
+        ]
+    },
+    "pages": 
+    {
+        "sample.extension": 
+        {
+            "settings": 
+            {
+                "this_page": "what url would it be",
+                "title": "Open Graph page title",
+                "description": "OpenGraph page description",
+                "content": "src file"
+            }
+        },
+    }
+}
