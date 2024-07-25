@@ -86,5 +86,8 @@
             </div>
           </div>
         </section>
+        <div class="text-center text-gray-400">
+            Cruxes are a species created by <A href="https://en.wikifur.com/wiki/Crux_(species)">Malluch Cleaver</a>
+        </div>
     </div>
 </main>
