@@ -5,6 +5,13 @@
             A brief overview of changes made to this website!
             <br> 
             <div class="space-y-5">
+                <div class="p-2" id="7-23-2024">
+                    <h2 class="align-middle text-xl text-gray-400">7/23/2024</h2>
+                    <ul class="list-inside list-disc">
+                        <li>Updated fursona lore page.</li>
+                        <li>Added <a href="https://furryring.neocities.org/">furryring</a> widget.</li>
+                    </ul>
+                </div>  
                 <div class="p-2" id="6-27-2024">
                     <h2 class="align-middle text-xl text-gray-400">6/27/2024</h2>
                     <ul class="list-inside list-disc">

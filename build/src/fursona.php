@@ -42,7 +42,8 @@
                         <li>Like other Leukos Arsenikon Cruxes, alchemical symbol for white arsenic appears as a marking on its chest fluff.</li>
                         <li>Its eyes are coated in a film of luciferin that gives it a bright sky blue glow.</li>
                         <li>Often wears loose-fitting clothing.</li>
-                        <li>Wears a collar around its neck, a remnant from its time in captivity and a reminder to never let itself be captured again.</li>
+                        <li>Wears a collar around its neck.</li>
+                        <li>Capable of consuming poison.</li>
                     </ul>
                 </div>
             </div>
@@ -63,15 +64,27 @@
                 </div>
             </div>
             <div class="p-4">
-                <h3 class="header-2 text-3xl aero">Background</h3>
-                <div class="p-4">
-                    <ul class="list-disc">
-                        <li>Born from a lab experiment of an unknown intention, believed to have been mutated from a different, possibly kidnapped, creature. It was already 17 years old when it became conscious and escaped its captors. Has no memory of its life before mutation.</li>
-                        <li>Developed nocturnal traits by roaming around at night and taking up refuge during the day.</li>
-                        <li>The lack of understanding in its purpose or origin caused a period of stress and related mental torment. Has since overcome it, now wishes to embrace the beauty and potential of the world before it.</li>
-                    </ul>
-                </div>
+            <h3 class="header-2 text-3xl aero">Background</h3>
+            <div class="p-4">
+              <ul class="list-disc">
+                <li>An interdimensional being whose current physical existence is tied to the light eminating from stars visible from the milky way galaxy in a very specific period of time. Similar to that of a shadow being casted from a source of light.</li>
+                <li>Can travel great distances through teleportation, but at a great caloric expense. This expense can be affected by the planetary gravity.</li>
+                <li>Found Earth after 17 (Earth) years of drifting through space. Chose to stay due to the abundance of life and beauty. Has spoken of experiences with similar planets that lack anyone to talk to.</li>
+                <li>It lives its life by learning, playing, building, creating, and so on. Spending time and sharing joy with its companions from all over the planet.</li>
+              </ul>
             </div>
+          </div>
+            <div class="p-4">
+            <h3 class="header-2 text-3xl aero">Quotes</h3>
+            <div class="p-4">
+              <ul class="list-disc">
+                <li><span class="text-gray-400">"It is difficult to explain where I am from, it is not as much a place, but an energy or a feeling between realities. One day I wasn't, then suddenly I was; my time is finite, and one day I will go home."</span></li>
+                <li><span class="text-gray-400">"Of all the planets I have been to, yours is the one with the best view of the cosmos. You can't even see the sky in most atmospheres, and there are very few places with others to keep you company."</span></li>
+                <li><span class="text-gray-400">"I've always considered myself to be an interloper, even to those of my own species, but I love them all the same, they are my family."</span></li>
+                <li><span class="text-gray-400">"The universe has taught me that much of it is composed of ... nothing. Pointless things, things with no meaning. Many people feel the same way of themselves, as do I at times. But it is ok to feel these things, not everything has to mean something or have some kind of place, sometimes it's nice to just ... be."</span></li>
+              </ul>
+            </div>
+          </div>
         </section>
     </div>
 </main>

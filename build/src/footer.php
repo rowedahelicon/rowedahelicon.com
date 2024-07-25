@@ -8,6 +8,10 @@
             <a href="https://fediring.net/">Fediring</a>
             <a href="https://fediring.net/next?host=rowedahelicon.com">→</a>
         </div>
+        <div id='furryring'>
+        <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
+        <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
+        </div>
         <div><a href="{website_url}humans.txt"><img src="{website_url}images/humanstxt-transparent-color.png" alt="Humans.txt" class="self-end"></a></div>
     </div>
 </footer>

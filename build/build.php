@@ -89,6 +89,7 @@ class static_builder
 
 try
 {
+    echo "\033[31m( ´･ω･`) \033[0m\n";
     $builder = new static_builder();
     $builder->build();
 } 

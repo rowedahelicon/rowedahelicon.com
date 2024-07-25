@@ -33,7 +33,7 @@
         </div>
         <div role="contentinfo">
             <p class="text-center text-gray-300 text-xs mb-4">
-                Made with &lt;3 by <a href="https://rowdythecrux.dev" target="_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href="{website_url}revision.html">Revision: 002</a>
+                Made with &lt;3 by <a href="https://rowdythecrux.dev" target="_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href="{website_url}revision.html">Revision: 003</a>
             </p>
         </div>
     </body>
