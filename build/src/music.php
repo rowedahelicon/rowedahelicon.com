@@ -17,7 +17,7 @@
             <h2 class="header-2 text-4xl aero">Bands</h2>
                 <div class="p-4">
                     <ul class="list-disc">
-                        {bands}
+                        {{bands}}
                     </ul>
             </div>
         </section>
@@ -25,7 +25,7 @@
             <h2 class="header-2 text-4xl aero">Artists</h2>
                 <div class="p-4">
                     <ul class="list-disc">
-                        {artists}
+                        {{artists}}
                     </ul>
             </div>
         </section>
