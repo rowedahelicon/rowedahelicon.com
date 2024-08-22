@@ -58,7 +58,7 @@
                         <li>Can get overly obsessive and emotional towards thoughts and projects.</li>
                         <li>Curious, likes to understand things, to a fault sometimes.</li>
                         <li>Is generally happy and full of energy. Sometimes can become burnt out, stressed, or tired.</li>
-                        <li>Sometimes non-verbal, communicates in vague gestures. Body language is emphasized when speaking, usage of hands, head tilts, etc. Can speak perfectly, but sometimes communicates via roars, growls, or trilling.</li>
+                        <li>Sometimes non-verbal, communicates in vague gestures. Body language is emphasized when speaking, usage of hands, head tilts, etc. Can speak perfectly, but sometimes communicates via howls, barks, growls, or trilling.</li>
                         <li>Is afraid of manipulation, and can become easily paranoid of others intentions.</li>
                     </ul>
                 </div>
@@ -67,13 +67,10 @@
             <h3 class="header-2 text-3xl aero">Background</h3>
             <div class="p-4">
               <ul class="list-disc">
-                <li>An interdimensional being whose current physical existence is tied to the light eminating from stars visible from the milky way galaxy in a very specific period of time. Similar to that of a shadow being casted from a source of light.</li>
-                <li>Can travel great distances through teleportation, but at a great caloric expense. This expense can be affected by the planetary gravity.</li>
-                <li>Found Earth after 17 (Earth) years of drifting through space. Chose to stay due to the abundance of life and beauty. Has spoken of experiences with similar planets that lack anyone to talk to.</li>
-                <li>It lives its life by learning, playing, building, creating, and so on. Spending time and sharing joy with its companions from all over the planet.</li>
+                <li>Not much is known about the origins of this mysterious entity, having simply emerged from a forest one day. They claim they are from space and drifted around many lonely planets before finding Earth, stating that they instantly fell in love with the world and the life therein. They carry the mark of white arsenic, a trait found in many summoned Cruxes. But, who summoned them...and why?<br><br>Having no clear answer to this question, they spend their days traveling, meeting others, sharing in joy, playing, building, and satisfying their endless curiosity with the wonders of the world.
               </ul>
             </div>
-          </div>
+            </div>
             <div class="p-4">
             <h3 class="header-2 text-3xl aero">Quotes</h3>
             <div class="p-4">
