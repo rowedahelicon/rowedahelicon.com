@@ -1,7 +1,6 @@
 <?php
 
 $music = array();
-$music['ochre'] = array('title' => 'Ochre', 'url' => 'https://ochre.bandcamp.com/');
 $music['tallyhall'] = array('title' => 'Tally Hall', 'url' => 'https://en.wikipedia.org/wiki/Tally_Hall');
 $music['pomplamoose'] = array('title' => 'Pomplamoose', 'url' => 'https://www.pomplamoose.com/');
 $music['talkingheads'] = array('title' => 'Talking Heads', 'url' => 'https://en.wikipedia.org/wiki/Talking_Heads');
@@ -39,6 +38,7 @@ $music['matrixfuturebound'] = array('title' => 'Matrix & Futurebound', 'url' => 
 $music['stantonwarriors'] = array('title' => 'Stanton Warriors', 'url' => 'https://stantonwarriors.com/');
 $music['kraftwerk'] = array('title' => 'Kraftwerk', 'url' => 'https://kraftwerk.com/');
 $music['thefuturesoundoflondon'] = array('title' => 'The Future Sound of London', 'url' => 'http://www.futuresoundoflondon.com/');
+$music['creaturefeature'] = array('title' => 'Creature Feature', 'url' => 'http://www.creaturefeaturemusic.com/');
 //$music[''] = array('title' => '', 'url' => '');
 
 ksort($music);

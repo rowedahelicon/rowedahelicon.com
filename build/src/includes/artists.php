@@ -56,6 +56,11 @@ $music['mason'] = array('title' => 'Mason', 'url' => 'https://www.musicofmason.c
 $music['deadmau5'] = array('title' => 'Deadmau5', 'url' => 'https://deadmau5.com/');
 $music['djfresh'] = array('title' => 'DJ Fresh', 'url' => 'https://en.wikipedia.org/wiki/DJ_Fresh');
 $music['4lung'] = array('title' => '4Lung', 'url' => 'https://rawrdcore.bandcamp.com/');
+$music['madilynmei'] = array('title' => 'Madilyn Mei', 'url' => 'https://www.madilynmei.com/');
+$music['puppygirl'] = array('title' => 'Puppy Girl', 'url' => 'https://linktr.ee/puppygirlmusic/');
+$music['ochre'] = array('title' => 'Ochre', 'url' => 'https://ochre.bandcamp.com/');
+$music['beetlebug'] = array('title' => 'Beetlebug', 'url' => 'https://beetlebug.komi.io/');
+$music['leithross'] = array('title' => 'Leith Ross', 'url' => 'https://leithross.com/');
 //$music[''] = array('title' => '', 'url' => '');
 
 ksort($music);
