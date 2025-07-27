@@ -55,6 +55,7 @@ $music['ferrycorsten'] = array('title' => 'Ferry Corsten', 'url' => 'https://www
 $music['mason'] = array('title' => 'Mason', 'url' => 'https://www.musicofmason.com/');
 $music['deadmau5'] = array('title' => 'Deadmau5', 'url' => 'https://deadmau5.com/');
 $music['djfresh'] = array('title' => 'DJ Fresh', 'url' => 'https://en.wikipedia.org/wiki/DJ_Fresh');
+$music['4lung'] = array('title' => '4Lung', 'url' => 'https://rawrdcore.bandcamp.com/');
 //$music[''] = array('title' => '', 'url' => '');
 
 ksort($music);

@@ -41,6 +41,7 @@
             <div>
                 <h2 class="p-2 align-middle text-2xl text-gray-400">Cool People</h2>
                 <div class="flex flex-wrap">
+                    <div class="p-1"><a href="https://seapunk.xyz"><img src="https://rowedahelicon.com/images/buttons/88x31_cpnk.gif"  alt="seapunk.xyz button" title="A button for seapunk.xyz" width="88" height="31"></a></div>
                     <div class="p-1"><a href="https://xaselgio.net"><img src="{website_url}images/buttons/88x31_xaselgio.gif" alt="xaselgio.net button" title="A button for xaselgio.net" width="88" height="31"></a></div>
                     <div class="p-1"><a href="https://zenthefox.online/"><img src="{website_url}images/buttons/88x31_zennow.gif" alt="zenthefox.online button" title="A button for zenthefox.online" width="88" height="31"></a></div>
                 </div>

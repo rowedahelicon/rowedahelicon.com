@@ -9,7 +9,7 @@
             <br><br>
             This page is a collection of some artists and bands for whom I have particular interest in, it is not a complete list by any means, and will be updated periodically.
             <br>
-            <span class="text-gray-400">Last updated: 8/22/2024</span>
+            <span class="text-gray-400">Last updated: 12/24/2024</span>
             </div>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2">
