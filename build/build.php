@@ -1,12 +1,20 @@
 <?php
 
+//TODO - If we edit the css, but not any file, we should forcibly regen the files with the proper css cache
+
 class static_builder
 {
     private array $structure;
+    private array $file_hash_new;
+    private array $file_hash_cur;
   
     function __construct(string $json = 'structure.json')
     {
         $this->structure = json_decode(file_get_contents($json), TRUE);
+
+        //This is our hash list, so we don't regenerate files that haven't been touched
+        $this->file_hash_new = [];
+        $this->file_hash_cur = (file_exists('file_hash_list.json')) ? json_decode(file_get_contents('file_hash_list.json'), TRUE) : [];
 
         //General error handling
         if (!is_dir($this->structure['settings']['build_location'])) throw new Exception('Build location does not exist!');
@@ -19,6 +27,8 @@ class static_builder
         {
             $this->generate_page($k, (!empty($v['settings']) ? $v['settings'] : array()));
         }
+
+        $this->merge_hash_list();
     }
 
     private function replace_basics(string $html, array $settings = array()) : string
@@ -29,11 +39,37 @@ class static_builder
         $html = str_replace('{website_description}', (isset($settings['description']) ? $settings['description']: $this->structure['settings']['description']), $html);
         $html = str_replace('{website_css}', $this->generate_css((isset($settings['css']) ? $settings['css']: null)), $html);
 
+        //Adding this to basics for now, but will probably put it elsewhere later
+        $html = str_replace('{build_date}', date('Y-m-d'), $html);
+
         return $html;
     }
 
     private function generate_page(string $file_name, array $settings = array()) : void
     {
+        $can_compile = false;
+
+        $hash = (file_exists(getcwd().'/generated/'.$file_name)) ? hash_file('sha256', getcwd().'/generated/'.$file_name) : '';
+
+        if (!$this->hash_match($file_name, $hash)) $can_compile = true;
+
+        if (isset($settings['dependencies']))
+        {
+            foreach ($settings['dependencies'] as $k => $v)
+            {
+                $depend_hash = (file_exists(getcwd().'/src/includes/'.$v)) ? hash_file('sha256', getcwd().'/src/includes/'.$v) : '';
+                if (!$this->hash_match('depend/'.$v, $depend_hash)) $can_compile = true;
+            }
+        }
+
+        if (!$can_compile)
+        {
+            $this->colorLog('Skipping '.$file_name.' file...');
+            return;
+        }
+        
+        $this->colorLog('Processing '.$file_name.' file...');
+
         $html = file_get_contents('src/'.$this->structure['settings']['base_file']);
 
         //Process content
@@ -65,6 +101,16 @@ class static_builder
         $this->colorLog('Building: '.$this->structure['settings']['build_location'].$file_name.'...');
         
         file_put_contents('generated/'.$file_name, $html);
+        $this->file_hash_new[$file_name] = $hash;
+
+        if (isset($settings['dependencies']))
+        {
+            foreach ($settings['dependencies'] as $k => $v)
+            {
+                $depend_hash = (file_exists(getcwd().'/src/includes/'.$v)) ? hash_file('sha256', getcwd().'/src/includes/'.$v) : '';
+                $this->file_hash_new['depend/'.$v] = $depend_hash;
+            }
+        }
     }
 
     private function generate_css( array|null $extra_css = null)
@@ -113,6 +159,17 @@ class static_builder
         ob_start();
         require($file);
         return ob_get_clean();
+    }
+
+    private function merge_hash_list() : void
+    {
+        $array = array_merge($this->file_hash_cur, $this->file_hash_new);
+        file_put_contents('file_hash_list.json', json_encode($array));
+    }
+
+    private function hash_match(string $file_name, string $hash) : bool
+    {
+        return (isset($this->file_hash_cur[$file_name]) && $this->file_hash_cur[$file_name] == $hash) ? true : false;
     }
 }
 
