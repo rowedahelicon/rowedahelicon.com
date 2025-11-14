@@ -1,15 +1,18 @@
 <?php
 
-//TODO - If we edit the css, but not any file, we should forcibly regen the files with the proper css cache
-
 class static_builder
 {
     private array $structure;
     private array $file_hash_new;
     private array $file_hash_cur;
+
+    //CloudFlare API
+    private array $cf_api = [];
   
-    function __construct(string $json = 'structure.json')
+    function __construct(string $json = 'structure.json', array $cf_api)
     {
+        $this->cf_api = $cf_api;
+        
         $this->structure = json_decode(file_get_contents($json), TRUE);
 
         //This is our hash list, so we don't regenerate files that haven't been touched
@@ -171,11 +174,40 @@ class static_builder
     {
         return (isset($this->file_hash_cur[$file_name]) && $this->file_hash_cur[$file_name] == $hash) ? true : false;
     }
+
+    private function refresh_css_cache()
+    {
+        //For each listed CSS file that we have, we want to make sure we can hit up the CF Api to manually refresh it rather than change the version data on each applicable file
+        //CF APi
+
+        //Modifed from https://gist.github.com/Greg-Boggs/73796406278cd67334db08dc052931dd
+    
+        $head = [];
+        $head[] = 'Content-Type: application/json';
+        $head[] = "X-Auth-Email: $email";
+        $head[] = "X-Auth-Key: $apiKey";
+        $head[] = 'cache-control: no-cache';
+
+        $url = "https://api.cloudflare.com/client/v4/zones/$zoneId/purge_cache";
+
+        $purge = ['purge_everything' => true];
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "DELETE");
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $head);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($purge));
+        $result = curl_exec($ch);
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+    }
 }
 
 try
 {
     echo "\033[31m( ´･ω･`) \033[0m\n";
+
+    $cf_api = ['zone_id' => '', 'api_key' => '', 'email' => 'matthewr01@gmail.com'];
+
     $builder = new static_builder();
     $builder->build();
 } 
