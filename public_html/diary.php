@@ -4,9 +4,11 @@
   <meta name="generator" content=
   "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta charset="UTF-8">
-  <title>What's on my mind</title>
+  <title>Rowdy's Journal</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1753601323">
+  "https://rowedahelicon.com/css/tw.min.css?v=1763103643">
+  <link rel="stylesheet" href=
+  "https://rowedahelicon.com/css/md.css?v=1763103643">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -17,9 +19,10 @@
   "https://rowedahelicon.com/images/favicon-16x16.png">
   <link rel="manifest" href=
   "https://rowedahelicon.com/site.webmanifest">
-  <meta property="og:title" content="What's on my mind">
-  <meta property="og:description" content="">
-  <meta property="og:site_name" content="What's on my mind">
+  <meta property="og:title" content="Rowdy's Journal">
+  <meta property="og:description" content=
+  "The not so secret stash of Rowdy's rambles">
+  <meta property="og:site_name" content="Rowdy's Journal">
   <meta property="og:type" content="profile">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@rowedahelicon">
@@ -46,12 +49,41 @@
           <a href="https://rowedahelicon.com/">
           <h1 class="align-middle text-3xl md:text-7xl">
           Rowedahelicon</h1></a> <span class=
-          "text-lg md:text-xl text-gray-400">Crux • She/They/It •
-          ΘΔ</span>
+          "text-lg md:text-xl text-gray-400">Crux •
+          It/They/She/Star • ΘΔ</span>
         </div>
       </div>
       <div class="h-12 stripes-2"></div>
-    </header>
+    </header><?php
+    //We can maybe move this to a central place
+    require ('/var/www/thestoa.blog/vendor/autoload.php');
+    use League\CommonMark\CommonMarkConverter;
+
+    $markdown = null;
+    if (isset($_SERVER['REQUEST_URI']) && $_SERVER['REQUEST_URI'] != '/')
+    {
+    if (file_exists('/var/www/rowedahelicon.com/public_html/library'.$_SERVER['REQUEST_URI'].'.md'))
+    {
+        $markdown = '/var/www/rowedahelicon.com/public_html/library'.$_SERVER['REQUEST_URI'].'.md';
+    }
+    else
+    {
+        header('HTTP/1.0 404 Not Found');
+    }
+    }
+
+    if (!is_null($markdown) && file_exists(getcwd().$_SERVER['REQUEST_URI'].'.json')) $header = array_merge($header, json_decode(file_get_contents(getcwd().$_SERVER['REQUEST_URI'].'.json'), TRUE)); 
+    ?>
+    <main class="p-4 overflow-auto">
+      <div class="space-y-5">
+        <?php  if (!is_null($markdown)): ?>
+        <article>
+          <?php $converter = new CommonMarkConverter(); echo $converter->convertToHtml(file_get_contents($markdown)); ?>
+        </article><?php else: ?>
+        <h2 class="header-2 text-4xl aero text-center">
+        Diary</h2><?php endif; ?>
+      </div>
+    </main>
     <footer class="rounded-b-lg overflow-auto">
       <div class="flex items-center justify-between px-4">
         <div class="pt-1 text-lg">
@@ -59,7 +91,7 @@
           "https://github.com/rowedahelicon/rowedahelicon.com"
           aria-label="Source Code"><span class=
           "icon-github"></span></a> <a href=
-          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/blog.html"
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/diary"
           aria-label="Valid HTML"><span class=
           "icon-html5"></span></a> <a href=
           "https://jigsaw.w3.org/css-validator/check/referer"
@@ -73,10 +105,10 @@
           "https://fediring.net/next?host=rowedahelicon.com">→</a>
         </div>
         <div id='furryring'>
-          <script type="text/javascript" src=
+          <script src=
           "https://furryring.neocities.org/onionring-variables.js"></script>
           
-          <script type="text/javascript" src=
+          <script src=
           "https://furryring.neocities.org/onionring-widget.js"></script>
         </div>
         <div>
@@ -91,7 +123,9 @@
     <p class="text-center text-gray-300 text-xs mb-4">Made with
     &lt;3 by <a href="https://rowdythecrux.dev" target=
     "_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href=
-    "https://rowedahelicon.com/revision.html">Revision: 004</a></p>
+    "https://rowedahelicon.com/revision">Revision: 007
+    (10/11/2025)</a> :: <a href=
+    "https://rowedahelicon.com/roadmap">Roadmap</a></p>
   </div>
 </body>
 </html>

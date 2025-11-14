@@ -1,0 +1,116 @@
+/* Rowedahelicon Portfolio Edition (C) Rowedahelcion 2009 */
+
+body {
+background-color: #212d32;
+font-family: arial, helvetica, tahoma, sans-serif; margin: auto; color: white;
+
+}
+
+/*--DIVS-----------------------------------------------------------------------------------------------*/
+div#container
+{
+   width: 100%;
+   position: relative;
+   margin-top: 0px;
+   margin: auto;
+   font-family: arial, helvetica, tahoma, sans-serif; margin: auto; color: white; font-size:10pt;
+   text-align: left;
+   z-index:1;
+    }
+div#content
+{
+height:1100px;
+width:1000px;
+margin-left: auto;
+margin-right: auto;
+padding:0px;
+z-index:1;
+}
+
+div#contentl
+{
+margin: 0px;
+height:1100px;
+width:449px;
+padding:0px;
+z-index:1;
+}
+
+div#contentm
+{
+margin: 0px;
+height:1100px;
+width:430px;
+padding:0px;
+z-index:1;
+}
+
+
+div#contentr
+{
+margin: 0px;
+height:1100px;
+width:80px;
+padding:0px;
+z-index:1;
+background-image: url('https://rowedahelicon.com/2009/images/rowsiter.png');
+}
+
+
+/*--ETC PROPTERTIES-----------------------------------------------------------------------------------*/
+a:link {color: white; TEXT-DECORATION: none}
+a {color: white;}
+
+A:active { COLOR: black; TEXT-DECORATION: none }
+A:hover { COLOR: yellow; TEXT-DECORATION: none; }
+button:hover { COLOR: white; TEXT-DECORATION: none;
+  background-color:#2fd72f;
+   border-style:double;
+   border-color:#000000;
+ }
+
+p {color: white; font-family: arial, helvetica, tahoma, sans-serif; margin: auto; font-size:10pt; }
+
+button {
+   color:#ffffff;
+   background-color:#232323;
+   border-style:double;
+   border-color:#000000;
+   }
+   
+   button.buttonalert {
+   color:#ffffff;
+   background-color:#FF0000;
+   border-style:double;
+   border-color:#000000;
+   }
+
+/*--TABLES----------------------------------------------------------------------------------------------*/
+table.itembox{
+margin-top:200px;
+background-color: #323137;
+margin-left: auto;
+margin-right: auto;
+position:absolute;
+z-index:10;
+width:430px;
+height:602px;
+}
+
+/*--TDS-------------------------------------------------------------------------------------------------*/
+td {font-family: arial, helvetica, tahoma, sans-serif; margin: auto;  font-size:10pt;}
+
+td.itemboxheader{
+margin-left: auto;
+margin-right: auto;
+background-color: #323137;
+}
+
+td.itemboxcontent{
+margin-left: auto;
+margin-right: auto;
+background-color: #222b2b;
+border:  .07em solid #323137;
+border-style: double; 
+border-top: 0; 
+}

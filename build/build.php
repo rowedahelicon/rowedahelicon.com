@@ -27,7 +27,7 @@ class static_builder
         $html = str_replace('{this_page}', (isset($settings['this_page']) ? $settings['this_page'] : $this->structure['settings']['url']), $html);
         $html = str_replace('{website_title}', (isset($settings['title']) ? $settings['title']: $this->structure['settings']['title']), $html);
         $html = str_replace('{website_description}', (isset($settings['description']) ? $settings['description']: $this->structure['settings']['description']), $html);
-        $html = str_replace('{website_css}', $this->generate_css(), $html);
+        $html = str_replace('{website_css}', $this->generate_css((isset($settings['css']) ? $settings['css']: null)), $html);
 
         return $html;
     }
@@ -67,12 +67,21 @@ class static_builder
         file_put_contents('generated/'.$file_name, $html);
     }
 
-    private function generate_css()
+    private function generate_css( array|null $extra_css = null)
     {
         $css = "";
         foreach ($this->structure['settings']['css'] as $k => $v)
         { 
             $css .= str_replace('#{url}', $this->structure['settings']['url'], '<link rel="stylesheet" href="'.$v.'?v='.time().'">'.PHP_EOL); 
+        }
+
+        //If our individual page has a css file specifically for it
+        if (!is_null($extra_css))
+        { 
+            foreach ($extra_css as $k => $v)
+            {
+                $css .= str_replace('#{url}', $this->structure['settings']['url'], '<link rel="stylesheet" href="'.$v.'?v='.time().'">'.PHP_EOL);
+            }
         }
 
         return $css;

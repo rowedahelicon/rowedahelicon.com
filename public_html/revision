@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>Revision History</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1753603707">
+  "https://rowedahelicon.com/css/tw.min.css?v=1763103643">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -46,8 +46,8 @@
           <a href="https://rowedahelicon.com/">
           <h1 class="align-middle text-3xl md:text-7xl">
           Rowedahelicon</h1></a> <span class=
-          "text-lg md:text-xl text-gray-400">Crux • She/They/It •
-          ΘΔ</span>
+          "text-lg md:text-xl text-gray-400">Crux •
+          It/They/She/Star • ΘΔ</span>
         </div>
       </div>
       <div class="h-12 stripes-2"></div>
@@ -59,6 +59,66 @@
           History</h2>A brief overview of changes made to this
           website!<br>
           <div class="space-y-5">
+            <div class="p-2" id="10-11-2025">
+              <h2 class="align-middle text-xl text-gray-400">
+              10/11/2025</h2>
+              <ul class="list-inside list-disc">
+                <li>Added a visual reference sheet to my <a href=
+                "https://rowedahelicon.com/fursona">Fursona
+                page</a>
+                </li>
+                <li>Added art to the <a href=
+                "https://rowedahelicon.com/fursona">Fursona
+                page</a>
+                </li>
+                <li>Updated icons on the Index page</li>
+                <li>Updated the overall look and wording on the
+                Index page, and added a link to my <a href=
+                "https://cruxes.space">Micro Blog</a>
+                </li>
+                <li>Adjusted the font used on the header</li>
+              </ul>
+            </div>
+            <div class="p-2" id="8-1-2025">
+              <h2 class="align-middle text-xl text-gray-400">
+              8/1/2025</h2>
+              <ul class="list-inside list-disc">
+                <li>Added a <a href="https://rowedahelicon.com/ai">
+                  /ai</a> page, inspired by <a href=
+                  "https://www.bydamo.la/p/ai-manifesto">Damola
+                  Morenikeji</a>
+                </li>
+                <li>Added a <a href=
+                "https://rowedahelicon.com/interests">/interests</a>
+                page
+                </li>
+                <li>Added a <a href=
+                "https://rowedahelicon.com/now">/now</a> page,
+                inspired by <a href="https://nownownow.com/about">
+                  nownownow.com</a>
+                </li>
+                <li>Added a <a href=
+                "https://rowedahelicon.com/roadmap">/roadmap</a>
+                page
+                </li>
+                <li>Added a <a href=
+                "https://rowedahelicon.com/uses">/uses</a> page
+                </li>
+              </ul>
+            </div>
+            <div class="p-2" id="7-27-2025">
+              <h2 class="align-middle text-xl text-gray-400">
+              7/27/2025</h2>
+              <ul class="list-inside list-disc">
+                <li>Redesigned the front page a little bit, made it
+                a bit more organized.</li>
+                <li>
+                  <a href=
+                  "https://github.com/rowedahelicon/rowedahelicon.com/commit/22cd941d3aa7503937781b027cc7d1eabac4c450">
+                  Updated to support Tailwind 4</a>.
+                </li>
+              </ul>
+            </div>
             <div class="p-2" id="8-22-2024">
               <h2 class="align-middle text-xl text-gray-400">
               8/22/2024</h2>
@@ -66,7 +126,7 @@
                 <li>Updated fursona lore page.</li>
                 <li>Added php parsing include tool for static
                 builder.</li>
-                <li>Added <a href="/music.html">Music page</a>.
+                <li>Added <a href="/music">Music page</a>.
                 </li>
               </ul>
             </div>
@@ -94,7 +154,7 @@
                 <li>This site is now referred to as the Crucis
                 Nexus 227.</li>
                 <li>Made some revisions to the <a href=
-                "https://rowedahelicon.com/fursona.html">Fursona
+                "https://rowedahelicon.com/fursona">Fursona
                 page</a>.
                 </li>
                 <li>New link added: <a href=
@@ -135,7 +195,7 @@
           "https://github.com/rowedahelicon/rowedahelicon.com"
           aria-label="Source Code"><span class=
           "icon-github"></span></a> <a href=
-          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/revision.html"
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/revision"
           aria-label="Valid HTML"><span class=
           "icon-html5"></span></a> <a href=
           "https://jigsaw.w3.org/css-validator/check/referer"
@@ -149,10 +209,10 @@
           "https://fediring.net/next?host=rowedahelicon.com">→</a>
         </div>
         <div id='furryring'>
-          <script type="text/javascript" src=
+          <script src=
           "https://furryring.neocities.org/onionring-variables.js"></script>
           
-          <script type="text/javascript" src=
+          <script src=
           "https://furryring.neocities.org/onionring-widget.js"></script>
         </div>
         <div>
@@ -167,7 +227,9 @@
     <p class="text-center text-gray-300 text-xs mb-4">Made with
     &lt;3 by <a href="https://rowdythecrux.dev" target=
     "_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href=
-    "https://rowedahelicon.com/revision.html">Revision: 004</a></p>
+    "https://rowedahelicon.com/revision">Revision: 007
+    (10/11/2025)</a> :: <a href=
+    "https://rowedahelicon.com/roadmap">Roadmap</a></p>
   </div>
 </body>
 </html>

@@ -45,7 +45,7 @@ $music['eggpriest'] = array('title' => 'EGGPRIEST', 'url' => 'https://eggpriest.
 $music['junelalonde'] = array('title' => 'June LaLonde', 'url' => 'https://junelalonde.bandcamp.com/');
 $music['nobonoko'] = array('title' => 'Nobonoko', 'url' => 'https://nobonoko.bandcamp.com/');
 $music['rilliam'] = array('title' => 'Rilliam', 'url' => 'https://raoulwb.bandcamp.com/');
-$music['mrsauceman'] = array('title' => 'Mr. Sauceman', 'url' => 'https://x.com/mister_sauceman?lang=en');
+$music['mrsauceman'] = array('title' => 'Mr. Sauceman', 'url' => 'https://mr-sauceman.neocities.org/');
 $music['nicolassnyder'] = array('title' => 'Nicolas Snyder', 'url' => 'https://www.nicolassnyder.com/');
 $music['nobuouematsu'] = array('title' => 'Nobuo Uematsu', 'url' => 'https://en.wikipedia.org/wiki/Nobuo_Uematsu');
 $music['joehisaishi'] = array('title' => 'Joe Hisaishi', 'url' => 'https://en.wikipedia.org/wiki/Joe_Hisaishi');

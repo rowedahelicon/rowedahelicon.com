@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>404</title>
+        <style>
+            body {background-color: #000; color: #fff;}
+            p {margin-left: auto;margin-right: auto;}
+        </style>
+    </head>
+<body>
+
+<p>But nobody came.</p>
+
+</body>
+</html> 

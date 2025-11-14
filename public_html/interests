@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for HTML5 for Linux version 5.6.0">
+  <meta charset="UTF-8">
+  <title>Interests</title>
+  <link rel="stylesheet" href=
+  "https://rowedahelicon.com/css/tw.min.css?v=1763103643">
+  <link rel="icon" type="image/x-icon" href=
+  "https://rowedahelicon.com/images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href=
+  "https://rowedahelicon.com/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href=
+  "https://rowedahelicon.com/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href=
+  "https://rowedahelicon.com/images/favicon-16x16.png">
+  <link rel="manifest" href=
+  "https://rowedahelicon.com/site.webmanifest">
+  <meta property="og:title" content="Interests">
+  <meta property="og:description" content=
+  "What makes my tail wag~">
+  <meta property="og:site_name" content="Interests">
+  <meta property="og:type" content="profile">
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:site" content="@rowedahelicon">
+  <meta property="twitter:image" content=
+  "https://rowedahelicon.com/images/rowdy_og.png">
+  <meta property="og:image" content=
+  "https://rowedahelicon.com/images/rowdy_og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://rowedahelicon.com/">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div id="stars_1"></div>
+  <div id="stars_2"></div>
+  <div id="stars_3"></div>
+  <div id="container" class=
+  "container md:mx-auto max-w-screen-lg md:mt-4 md:mb-1 stripes-1 p-2 border-solid border-0 md:border-8 border-black/70">
+    <header class="p-2 rounded-t-lg">
+      <div class="flex mb-0 p-2">
+        <div class=
+        "flex-auto text-white leading-none text-center inline">
+          <a href="https://rowedahelicon.com/">
+          <h1 class="align-middle text-3xl md:text-7xl">
+          Rowedahelicon</h1></a> <span class=
+          "text-lg md:text-xl text-gray-400">Crux •
+          It/They/She/Star • ΘΔ</span>
+        </div>
+      </div>
+      <div class="h-12 stripes-2"></div>
+    </header>
+    <main class="p-4 overflow-auto">
+      <div class="space-y-5">
+        <h2 class="header-2 text-4xl aero text-center">
+        Interests</h2>
+        <section id="interests" class="pb-5">
+          <h3 class=
+          "header-2 text-3xl aero text-gray-400 text-center">Things
+          that make my tail wag~!</h3>
+          <div class="p-4">
+            <ul class="list-disc">
+              <li><b>My family and my friends</b>: My family is my
+              strengh, and my friends are my power, I love everyone
+              dearly!</li>
+              <li><b>The Internet</b>: It's where all my friends
+              live, it's our home! It's the greatest cultural and
+              collaborative community ever made! We gotta protect
+              it!</li>
+              <li><b>Communities</b>: We gotta work together, play
+              together, and love together &lt;3 Communities are
+              meant to built and supported by those who
+              belong!</li>
+              <li><b>IndieWeb / SmallWeb</b>: I love playing with
+              my websites! I like to add things and refine them and
+              make fun stuff!</li>
+              <li><b>Technology</b>: I love tech, I love to learn
+              and try things and mess around!</li>
+              <li><b>Furries</b>: I love furries, I love being a
+              furry, I love going to conventions and I love
+              spending time with people who are just like me!</li>
+              <li><b>Music</b>: Music is what keeps me moving, it
+              keeps me powered, and focused! I love music of all
+              genres, I have a song for everything~!</li>
+              <li><b>Gaming</b>: Gaming and gaming communities
+              brought me so much fulfillment and happiness
+              throughout my entire life!</li>
+              <li><b>Movies/TV</b>: I watch all sorts of stuff
+              while I work, I love movies and actors, and I want to
+              be a voice actor some day!</li><i><b>Taco Bell</b>:
+              What can I say, it's garbage, but it makes me
+              happy</i>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="rounded-b-lg overflow-auto">
+      <div class="flex items-center justify-between px-4">
+        <div class="pt-1 text-lg">
+          <a href=
+          "https://github.com/rowedahelicon/rowedahelicon.com"
+          aria-label="Source Code"><span class=
+          "icon-github"></span></a> <a href=
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/interests"
+          aria-label="Valid HTML"><span class=
+          "icon-html5"></span></a> <a href=
+          "https://jigsaw.w3.org/css-validator/check/referer"
+          aria-label="Valid CSS"><span class=
+          "icon-css3"></span></a>
+        </div>
+        <div>
+          <a href=
+          "https://fediring.net/previous?host=rowedahelicon.com">←</a>
+          <a href="https://fediring.net/">Fediring</a> <a href=
+          "https://fediring.net/next?host=rowedahelicon.com">→</a>
+        </div>
+        <div id='furryring'>
+          <script src=
+          "https://furryring.neocities.org/onionring-variables.js"></script>
+          
+          <script src=
+          "https://furryring.neocities.org/onionring-widget.js"></script>
+        </div>
+        <div>
+          <a href="https://rowedahelicon.com/humans.txt"><img src=
+          "https://rowedahelicon.com/images/humanstxt-transparent-color.png"
+          alt="Humans.txt" class="self-end"></a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div role="contentinfo">
+    <p class="text-center text-gray-300 text-xs mb-4">Made with
+    &lt;3 by <a href="https://rowdythecrux.dev" target=
+    "_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href=
+    "https://rowedahelicon.com/revision">Revision: 007
+    (10/11/2025)</a> :: <a href=
+    "https://rowedahelicon.com/roadmap">Roadmap</a></p>
+  </div>
+</body>
+</html>

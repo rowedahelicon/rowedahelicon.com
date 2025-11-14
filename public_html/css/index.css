@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 body{
-    background-color: #1B181F;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  background-color: #1B181F;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 @keyframes flickerAnimation{0%{opacity:1}50%{opacity:0}100%{opacity:1}}.animate-flicker{opacity:1;animation:flickerAnimation 5s infinite}#stars_1{animation:flickerAnimation 4s infinite;background-image:url(../images/star_1.png);width:100%;height:800px;position:fixed;left:45%;transform:translate(-45%,-50%);z-index:-10;opacity:1;background-repeat:repeat-x}#stars_2{animation:flickerAnimation 9s infinite;background-image:url(../images/star_2.png);width:100%;height:800px;position:fixed;left:55%;transform:translate(-55%,-50%);z-index:-10;opacity:1;background-repeat:repeat-x}#stars_3{animation:flickerAnimation 7s infinite;background-image:url(../images/star_3.png);width:100%;height:800px;position:fixed;left:50%;transform:translate(-50%,-50%);z-index:-10;opacity:1;background-repeat:repeat-x}
 
 header {
-    background-color: #043138;
+  background-color: #043138;
+  font-family: trist, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 footer {
@@ -34,8 +35,8 @@ main {
         125deg,
         #394551,
         #394551 10px,
-        #525e6a 10px,
-        #525e6a 20px
+        #043138 10px,
+        #043138 20px
       );
 }
 
@@ -63,6 +64,30 @@ main {
       url('../fonts/icomoon.ttf?bsqexc') format('truetype'),
       url('../fonts/icomoon.woff?bsqexc') format('woff'),
       url('../fonts/icomoon.svg?bsqexc#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+     @font-face {
+    font-family: 'W95FA';
+    src:  url('../fonts/W95FA.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+
+     @font-face {
+    font-family: 'trist';
+    src:  url('../fonts/tristandemo-regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }     
+  
+  @font-face {
+    font-family: 'ApproachMono';
+    src:  url('../fonts/ApproachMono.otf');
     font-weight: normal;
     font-style: normal;
     font-display: block;
@@ -167,4 +192,17 @@ main {
 #furryring .webring-links {
   font-size:small;
     text-decoration: none;
+    color: #0fb9d3;
+}
+
+.space {
+  font-family: trist, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.approach {
+  font-family: ApproachMono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.W95FA {
+  font-family: W95FA, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }

@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>A creature from between the stars</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1753603707">
+  "https://rowedahelicon.com/css/tw.min.css?v=1763103643">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -49,12 +49,20 @@
           <a href="https://rowedahelicon.com/">
           <h1 class="align-middle text-3xl md:text-7xl">
           Rowedahelicon</h1></a> <span class=
-          "text-lg md:text-xl text-gray-400">Crux • She/They/It •
-          ΘΔ</span>
+          "text-lg md:text-xl text-gray-400">Crux •
+          It/They/She/Star • ΘΔ</span>
         </div>
       </div>
       <div class="h-12 stripes-2"></div>
     </header>
+    <div id="image-modal" class=
+    "image-modal bg-sky-800/30 text-gray-200 p-4 rounded fixed top-0 left-0 z-[200] text-center w-screen h-screen backdrop-blur-sm flex justify-center items-center hidden">
+    <button class=
+    "image-modal-close fixed z-210 top-4 right-4 hover:text-white text-5xl font-bold hover:bg-white/30 p-6 pb-8 rounded leading-7"
+    onclick="closeModal()">×</button> <img src=
+    "https://cdn.furfortress.com/scritchworks/art/sketch.webp"
+    title="An example of a sketch" alt="Example of a sketch" class=
+    "image-modal-content max-h-[90%] object-cover"></div>
     <div id="fursona-image" class="border-b-4 border-[#043138]">
     <img src="https://www.rowedahelicon.com/images/stargazer.webp"
     title=
@@ -77,9 +85,8 @@
               <h2 class="header-2 text-4xl aero">
               Bio</h2><b>Nicknames:</b> <span class=
               "float-right">Rowdy, Rowbles, Rumble</span><br>
-              <b>Age:</b> <span class="float-right">32</span><br>
-              <b>DoB:</b> <span class="float-right">June 12th,
-              1992</span><br>
+              <b>Age:</b> <span class="float-right">??</span><br>
+              <b>DoB:</b> <span class="float-right">??</span><br>
               <b>Species:</b> <span class="float-right"><a href=
               "https://en.wikifur.com/wiki/Crux_(species)">Leukos
               Arsenikon Crux</a></span><br>
@@ -101,7 +108,8 @@
               "https://en.wikipedia.org/wiki/Color_blindness#Red-green_color_blindness">
               Partially Colorblind</a></span><br>
               <b>Identifiers:</b> <span class=
-              "float-right">They/It, <a href=
+              "float-right"><a href="https://en.pronouns.page/@rowdy">
+              Pronouns</a>, <a href=
               "https://en.wikipedia.org/wiki/Furry_fandom">Furry</a>,
               <a href=
               "https://en.wikipedia.org/wiki/Pansexuality">Pansexual</a>,
@@ -110,7 +118,69 @@
             </div>
           </div><br>
           <br>
-          <h2 class="header-2 text-4xl aero">Reference</h2>
+          <h2 id="refsheet" class="header-2 text-4xl aero">
+          Reference</h2>
+          <div class="p-4">
+            <div class=
+            "bg-[#394551] border-4 border-[#525E6A] overflow-auto p-4">
+              <div class="grid grid-cols-1 md:grid-cols-3 gap-2">
+                <div><img src=
+                "https://rowedahelicon.com/images/ref/row_ref_1.png"
+                alt="Refsheet - Front" title=
+                "The front facing view from the refsheet"></div>
+                <div><img src=
+                "https://rowedahelicon.com/images/ref/row_ref_2.png"
+                alt="Refsheet - Back" title=
+                "The back facing view from the refsheet"></div>
+                <div>
+                  <img src=
+                  "https://rowedahelicon.com/images/ref/row_ref_3.png"
+                  alt="Refsheet - Side" title=
+                  "The side facing view from the refsheet">
+                  <ul class="list-disc ml-2">
+                    <li>6 feet tall</li>
+                    <li>No genitalia</li>
+                    <li>Hair is wispy, usually covers an eye</li>
+                    <li>Tail can bend as needed</li>
+                    <li>The eyes glow at all times</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class=
+            "bg-[#394551] border-4 border-[#525E6A] overflow-auto border-t-0">
+              <div class="flex flex-col md:flex-row font-bold">
+                <div class="bg-[#F5F5F5] flex-1 text-black p-2">
+                  #F5F5F5<br>
+                  Main Fur
+                </div>
+                <div class="bg-[#301E2B] flex-1 text-white p-2">
+                  #301E2B<br>
+                  Markings / Hair / Nose
+                </div>
+                <div class="bg-[#0099D3] flex-1 text-black p-2">
+                  #0099D3<br>
+                  Ears / Eyes / Paw Pads
+                </div>
+                <div class="bg-[#00B7E0] flex-1 text-black p-2">
+                  #00B7E0<br>
+                  Ear Accent
+                </div>
+                <div class="bg-[#D7D3C2] flex-1 text-black p-2">
+                  #D7D3C2<br>
+                  Teeth
+                </div>
+                <div class="bg-black flex-1 text-white p-2">
+                  #000000<br>
+                  Claws
+                </div>
+                <div class="bg-white flex-1 text-black p-2">
+                  #FFFFFF<br>
+                  Pupils
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="p-4">
             <h3 class="header-2 text-3xl aero">Physical</h3>
             <div class="p-4">
@@ -137,7 +207,7 @@
             </div>
           </div>
           <div class="p-4">
-            <h3 class="header-2 text-3xl aero">Emotional</h3>
+            <h3 class="header-2 text-3xl aero">Personality</h3>
             <div class="p-4">
               <ul class="list-disc">
                 <li>Timid, shy, but generally social in familiar
@@ -164,54 +234,80 @@
             </div>
           </div>
           <div class="p-4">
-            <h3 class="header-2 text-3xl aero">Background</h3>
+            <h3 class="header-2 text-3xl aero">Origin</h3>
             <div class="p-4">
               <ul class="list-disc">
-                <li>Not much is known about the origins of this
-                mysterious entity, having simply emerged from a
-                forest one day. They claim they are from space and
-                drifted around many lonely planets before finding
-                Earth, stating that they instantly fell in love
-                with the world and the life therein. They carry the
-                mark of white arsenic, a trait found in many
-                summoned Cruxes. But, who summoned them...and
-                why?<br>
+                <li>Rowdy is a Crux, a race of inter-dimensional
+                beings often summoned from different periods and
+                places. It isn't clear why it was brought to Earth
+                in the spring of 2010 only to be left alone in the
+                world and fend for itself. The curiosity is there,
+                but the voices in its head can't agree on what the
+                proper path forward is, so it chooses to just live
+                in the moment instead.<br>
                 <br>
-                Having no clear answer to this question, they spend
-                their days traveling, meeting others, sharing in
-                joy, playing, building, and satisfying their
-                endless curiosity with the wonders of the
-                world.</li>
+                Skilled with technology and driven by curiosity,
+                this creature spends its time learning and
+                experimenting as it can, making friends along the
+                way with those who share its interests and
+                passions.</li>
+                <li>Rowdy believes it was summoned using a wolf pup
+                as a vessel</li>
+                <li>It was absolutely no lead on who brought it
+                here, but speculates it was a group of naysayers
+                who didn't believe their grimorium was authentic
+                and ran away once they realized what they had
+                done.</li>
               </ul>
             </div>
           </div>
           <div class="p-4">
-            <h3 class="header-2 text-3xl aero">Quotes</h3>
-            <div class="p-4">
-              <ul class="list-disc">
-                <li><span class="text-gray-400">"It is difficult to
-                explain where I am from, it is not as much a place,
-                but an energy or a feeling between realities. One
-                day I wasn't, then suddenly I was; my time is
-                finite, and one day I will go home."</span></li>
-                <li><span class="text-gray-400">"Of all the planets
-                I have been to, yours is the one with the best view
-                of the cosmos. You can't even see the sky in most
-                atmospheres, and there are very few places with
-                others to keep you company."</span></li>
-                <li><span class="text-gray-400">"I've always
-                considered myself to be an interloper, even to
-                those of my own species, but I love them all the
-                same, they are my family."</span></li>
-                <li><span class="text-gray-400">"The universe has
-                taught me that much of it is composed of ...
-                nothing. Pointless things, things with no meaning.
-                Many people feel the same way of themselves, as do
-                I at times. But it is ok to feel these things, not
-                everything has to mean something or have some kind
-                of place, sometimes it's nice to just ...
-                be."</span></li>
-              </ul>
+            <h3 class="header-2 text-3xl aero">Gallery</h3>
+            <div class="grid grid-cols-1 md:grid-cols-4 p-4 gap-4">
+              <div class="text-center">
+                <a href="/images/gallery/ming_rowdy_1.png" target=
+                "_blank" onclick=
+                "openImageModal(this); return false;"><img loading=
+                "lazy" title='A silly blep image of Rowdy' src=
+                "/images/gallery/ming_rowdy_1.png" alt=
+                "Rowdy - Ming" class=
+                "object-cover md:h-96 md:w-60 mb-2 border-2 bg-[#394551] border-4 border-[#525E6A]">Full</a>
+                - <a href=
+                "https://fragilescales.com/">fragilescales</a>
+              </div>
+              <div class="text-center">
+                <a href="/images/gallery/rowdy_keelah.png" target=
+                "_blank" onclick=
+                "openImageModal(this); return false;"><img loading=
+                "lazy" title='A somber image of Rowdy' src=
+                "/images/gallery/rowdy_keelah.png" alt=
+                "Rowdy - KeelahButts" class=
+                "object-cover md:h-96 md:w-60 mb-2 border-2 bg-[#394551] border-4 border-[#525E6A]">Full</a>
+                - <a href=
+                "https://bsky.app/profile/cruxfat.bsky.social">KeelahButts</a>
+              </div>
+              <div class="text-center">
+                <a href=
+                "/images/gallery/headshot_rowedahelicon.png"
+                target="_blank" onclick=
+                "openImageModal(this); return false;"><img loading=
+                "lazy" title='A spooky icon of Rowdy' src=
+                "/images/gallery/headshot_rowedahelicon.png" alt=
+                "Rowdy - JeffTheIronic" class=
+                "object-cover md:h-96 md:w-60 mb-2 border-2 bg-[#394551] border-4 border-[#525E6A]">Full</a>
+                - <a href=
+                "https://toyhou.se/JeffTheIronic">JeffTheIronic</a>
+              </div>
+              <div class="text-center">
+                <a href="/images/gallery/chibi.png.png" target=
+                "_blank" onclick=
+                "openImageModal(this); return false;"><img loading=
+                "lazy" title='A chibi version of Rowdy' src=
+                "/images/gallery/chibi.png" alt=
+                "Rowdy - ScritchWorks" class=
+                "object-cover md:h-96 md:w-60 mb-2 border-2 bg-[#394551] border-4 border-[#525E6A]">Full</a>
+                - <a href="https://scritch.works">ScritchWorks</a>
+              </div>
             </div>
           </div>
         </section>
@@ -222,6 +318,33 @@
         </div>
       </div>
     </main>
+    <script>
+    const imageModal = document.getElementById("image-modal");
+
+    document.addEventListener("click", function(event) {
+        if (event.target.matches(".image-modal-close") || event.target.matches(".image-modal")) {
+            imageModal.classList.add("hidden");
+        }        
+    },false);
+
+    function openImageModal(image) {
+        document.querySelector(".image-modal-content").alt = image.getElementsByTagName('img')[0].alt;
+        document.querySelector(".image-modal-content").src = image.getElementsByTagName('img')[0].src;
+        document.querySelector(".image-modal-content").title = image.getElementsByTagName('img')[0].title;
+        imageModal.classList.remove("hidden");
+    }
+
+    function closeModal(item)
+    {
+        item.parentNode.parentNode.style.display = 'none';
+    }
+
+    function openModal(item)
+    {
+        //item.parentNode.parentNode.childNodes[1].classList.remove("hidden");
+        item.parentNode.parentNode.children[0].style.display = 'grid';
+    }
+    </script>
     <footer class="rounded-b-lg overflow-auto">
       <div class="flex items-center justify-between px-4">
         <div class="pt-1 text-lg">
@@ -229,7 +352,7 @@
           "https://github.com/rowedahelicon/rowedahelicon.com"
           aria-label="Source Code"><span class=
           "icon-github"></span></a> <a href=
-          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/fursona.html"
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/fursona"
           aria-label="Valid HTML"><span class=
           "icon-html5"></span></a> <a href=
           "https://jigsaw.w3.org/css-validator/check/referer"
@@ -243,10 +366,10 @@
           "https://fediring.net/next?host=rowedahelicon.com">→</a>
         </div>
         <div id='furryring'>
-          <script type="text/javascript" src=
+          <script src=
           "https://furryring.neocities.org/onionring-variables.js"></script>
           
-          <script type="text/javascript" src=
+          <script src=
           "https://furryring.neocities.org/onionring-widget.js"></script>
         </div>
         <div>
@@ -261,7 +384,9 @@
     <p class="text-center text-gray-300 text-xs mb-4">Made with
     &lt;3 by <a href="https://rowdythecrux.dev" target=
     "_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href=
-    "https://rowedahelicon.com/revision.html">Revision: 004</a></p>
+    "https://rowedahelicon.com/revision">Revision: 007
+    (10/11/2025)</a> :: <a href=
+    "https://rowedahelicon.com/roadmap">Roadmap</a></p>
   </div>
 </body>
 </html>
