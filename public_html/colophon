@@ -4,7 +4,7 @@
   <meta name="generator" content=
   "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta charset="UTF-8">
-  <title>Interests</title>
+  <title>Colophon</title>
   <link rel="stylesheet" href=
   "https://rowedahelicon.com/css/tw.min.css?v=1767777978">
   <link rel="icon" type="image/x-icon" href=
@@ -17,10 +17,9 @@
   "https://rowedahelicon.com/images/favicon-16x16.png">
   <link rel="manifest" href=
   "https://rowedahelicon.com/site.webmanifest">
-  <meta property="og:title" content="Interests">
-  <meta property="og:description" content=
-  "What makes my tail wag~">
-  <meta property="og:site_name" content="Interests">
+  <meta property="og:title" content="Colophon">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Colophon">
   <meta property="og:type" content="profile">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@rowedahelicon">
@@ -55,45 +54,52 @@
     </header>
     <main class="p-4 overflow-auto">
       <div class="space-y-5">
-        <h2 class="header-2 text-4xl aero text-center">
-        Interests</h2>
-        <section id="interests" class="pb-5">
-          <h3 class=
-          "header-2 text-3xl aero text-gray-400 text-center">Things
-          that make my tail wag~!</h3>
+        <section id="website" class="pb-5">
+          <h2 class="header-2 text-4xl aero text-center">
+          Colophon</h2>
           <div class="p-4">
-            <ul class="list-disc">
-              <li><b>My family and my friends</b>: My family is my
-              strengh, and my friends are my power, I love everyone
-              dearly!</li>
-              <li><b>The Internet</b>: It's where all my friends
-              live, it's our home! It's the greatest cultural and
-              collaborative community ever made! We gotta protect
-              it!</li>
-              <li><b>Communities</b>: We gotta work together, play
-              together, and love together &lt;3 Communities are
-              meant to built and supported by those who
-              belong!</li>
-              <li><b>IndieWeb / SmallWeb</b>: I love playing with
-              my websites! I like to add things and refine them and
-              make fun stuff!</li>
-              <li><b>Technology</b>: I love tech, I love to learn
-              and try things and mess around!</li>
-              <li><b>Furries</b>: I love furries, I love being a
-              furry, I love going to conventions and I love
-              spending time with people who are just like me!</li>
-              <li><b>Music</b>: Music is what keeps me moving, it
-              keeps me powered, and focused! I love music of all
-              genres, I have a song for everything~!</li>
-              <li><b>Gaming</b>: Gaming and gaming communities
-              brought me so much fulfillment and happiness
-              throughout my entire life!</li>
-              <li><b>Movies/TV</b>: I watch all sorts of stuff
-              while I work, I love movies and actors, and I want to
-              be a voice actor some day!</li><i><b>Taco Bell</b>:
-              What can I say, it's garbage, but it makes me
-              happy</i>
-            </ul>
+            This website was created by paw with HTML, CSS, and a
+            home-made static generator built with PHP. It was
+            written using <a href=
+            "https://vscodium.com/">VSCodium</a>, and is maintained
+            via <a href="https://winscp.net/">WinSCP</a>. <a href=
+            "https://tailwindcss.com/">Tailwind CSS</a> is used as
+            a the CSS framework.<br>
+            <br>
+            It is currently hosted via <a href=
+            "https://www.digitalocean.com/">DigitalOcean</a>.
+            However, I do not support their AI priorities, and
+            thus, I intend to eventually move to a new host.<br>
+            <br>
+            This website features no tracking, no advertisements,
+            and no javascript. You can view the source code for the
+            site itself and my static builder on my <a href=
+            "https://github.com/rowedahelicon/rowedahelicon.com">Github
+            page.</a><br>
+            <br>
+            Like most of my web projects, this website is designed
+            to be viewed by anyone. It was built to meet <a href=
+            "https://webaim.org/">WebAIM's</a> standards for web
+            accessibility, and features lightweight and efficient
+            coding practices.
+          </div>
+        </section>
+        <section id="website" class="pb-5">
+          <h2 class="header-2 text-4xl aero text-center">My
+          supported ideas, techologies, and ethos.</h2>
+          <div class="p-4">
+            I believe in digital freedom. The internet is a place
+            where people can bask in the collection of all of
+            humanity's knowledge. It is a place meant to explore
+            and challenge ideas, find those who match our weird,
+            and ultimately shape ourselves freely into who we wish
+            to be.<br>
+            <br>
+            I believe that the internet is humanity's greatest
+            culture, and it has never been properly viewed,
+            understood, or respected as one. I feel this is a
+            tragedy that betrays the entire collective efforts of
+            everyone who has ever given anything to this world.
           </div>
         </section>
       </div>
@@ -105,7 +111,7 @@
           "https://github.com/rowedahelicon/rowedahelicon.com"
           aria-label="Source Code"><span class=
           "icon-github"></span></a> <a href=
-          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/interests"
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/colophon"
           aria-label="Valid HTML"><span class=
           "icon-html5"></span></a> <a href=
           "https://jigsaw.w3.org/css-validator/check/referer"

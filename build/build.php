@@ -49,9 +49,9 @@ class static_builder
     {
         $can_compile = false;
 
-        $hash = (file_exists(getcwd().'/generated/'.$file_name)) ? hash_file('sha256', getcwd().'/generated/'.$file_name) : '';
+        $hash = (file_exists(getcwd().'/src/'.$settings['content'])) ? hash_file('sha256', getcwd().'/src/'.$settings['content']) : '';
 
-        if (!$this->hash_match($file_name, $hash)) $can_compile = true;
+        if (!$this->hash_match($settings['content'], $hash)) $can_compile = true;
 
         if (isset($settings['dependencies']))
         {

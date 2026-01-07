@@ -6,9 +6,9 @@
   <meta charset="UTF-8">
   <title>Rowdy's Journal</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1763107966">
+  "https://rowedahelicon.com/css/tw.min.css?v=1764672475">
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/md.css?v=1763107966">
+  "https://rowedahelicon.com/css/md.css?v=1764672475">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
