@@ -4,7 +4,7 @@
   <meta name="generator" content=
   "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta charset="UTF-8">
-  <title>Roadmap</title>
+  <title>What I do.</title>
   <link rel="stylesheet" href=
   "https://rowedahelicon.com/css/tw.min.css?v=1783498757">
   <link rel="icon" type="image/x-icon" href=
@@ -17,10 +17,9 @@
   "https://rowedahelicon.com/images/favicon-16x16.png">
   <link rel="manifest" href=
   "https://rowedahelicon.com/site.webmanifest">
-  <meta property="og:title" content="Roadmap">
-  <meta property="og:description" content=
-  "Sometimes I just start doing something and hope I find where I'm headed along the way...">
-  <meta property="og:site_name" content="Roadmap">
+  <meta property="og:title" content="What I do.">
+  <meta property="og:description" content="And why I do them.">
+  <meta property="og:site_name" content="What I do.">
   <meta property="og:type" content="profile">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@rowedahelicon">
@@ -55,34 +54,69 @@
     </header>
     <main class="p-4 overflow-auto">
       <div class="space-y-5">
-        <h2 class="header-2 text-4xl aero text-center">Roadmap</h2>
-        <section id="roadmap" class="pb-5">
-          <h3 class=
-          "header-2 text-3xl aero text-gray-400 text-center">Things
-          I want/need to do</h3>
+        <section id="preamble" class="pb-5">
           <div class="p-4">
-            <ul class="list-disc">
-              <li>I want to look over and see if I can integrate
-              anything from <a href=
-              "https://indieweb.org/">IndieWeb</a> onto this site
+            <h2 class="header-2 text-4xl aero">Relevant
+            skills</h2>Languages: PHP, SourcePawn, C++, C#,
+            Java<br>
+            Technologies: Laravel, Node JS<br>
+            Operating Systems: Linux, Windows
+          </div>
+        </section>
+        <section id="websites" class="pb-5">
+          <div class="p-4">
+            <h2 class="header-2 text-4xl aero">
+            Websites</h2><a href="https://rowdythecrux.dev"><b>Social
+            Media Landing</b></a> My personal "linktree" clone. |
+            <a href=
+            "https://github.com/rowedahelicon/rowdythecrux.dev">Github</a>
+            | <span class="text-green-500">Actively
+            Maintained</span><br>
+            <a href="https://scritch.works"><b>ScritchWorks</b></a>
+            My art portfolio / Business. | <span class=
+            "text-green-500">Actively Maintained</span><br>
+            <a href="https://scg.wtf"><b>Southern Cross
+            Gaming</b></a> My furry gaming community. |
+            <span class="text-green-500">Actively
+            Maintained</span><br>
+            <a href="https://thestoa.blog"><b>The Stoa</b></a> A
+            blog about internet community stuff. | <a href=
+            "https://github.com/rowedahelicon/TheStoa">Github</a> |
+            <span class="text-green-500">Actively
+            Maintained</span><br>
+          </div>
+        </section>
+        <section id="plugins" class="pb-5">
+          <div class="p-4">
+            <h2 class="header-2 text-4xl aero">Sourcemod
+            Plugins</h2>
+            <ul class="list-inside list-disc">
+              <li>
+                <a href=
+                "https://github.com/rowedahelicon/MvM-Cash-Exploit-Fix">
+                MvM Cash Exploit Fix (Archived)</a> - A serverside
+                fix for a exploit in Mann Versus Machine that
+                allowed players to obtain extra money. This was
+                fixed by Valve eventually.
               </li>
-              <li>I started working on a proper about page, I want
-              to flesh it out</li>
-              <li>There are some missing header things I want to
-              add, like opengraph stuff</li>
-              <li>Go over <a href=
-              "https://jamesg.blog/2024/02/19/personal-website-ideas">
-                this article</a> and see what I can add
-              </li>
-              <li>Setup a <a href=
-              "https://www.packetizer.com/ws/webfinger/server.html">
-                Webfinger config</a>
-              </li>
-              <li>Fix some stupid CSS validation warnings</li>
-              <li>Expand upon my Colophon</li>
-              <li>Start adding in some archival / hosted content
-              stuff</li>
             </ul>
+          </div>
+        </section>
+        <section id="websites" class="pb-5">
+          <div class="p-4">
+            <h2 class="header-2 text-4xl aero">Misc</h2>
+            <div class="px-4">
+              <h2 class="text-2xl aero">Poe & Arty</h2>
+              <section id="scgbots" class=
+              "pb-5 border-dotted border-2 border-gray-500 p-2">
+                Poe and Arty are a set of bots that reside in the
+                SCG Steam and Discord chats. They are designed to
+                inform people of events, birthdays, updates, and so
+                on. They are built with Node JS. They used an
+                abandonded Discord API package that I maintain
+                specifically for them.
+              </section>
+            </div>
           </div>
         </section>
       </div>
@@ -94,7 +128,7 @@
           "https://github.com/rowedahelicon/rowedahelicon.com"
           aria-label="Source Code"><span class=
           "icon-github"></span></a> <a href=
-          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/roadmap"
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/portfolio"
           aria-label="Valid HTML"><span class=
           "icon-html5"></span></a> <a href=
           "https://jigsaw.w3.org/css-validator/check/referer"

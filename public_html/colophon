@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>Colophon</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1767777978">
+  "https://rowedahelicon.com/css/tw.min.css?v=1783498757">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -72,8 +72,9 @@
             thus, I intend to eventually move to a new host.<br>
             <br>
             This website features no tracking, no advertisements,
-            and no javascript. You can view the source code for the
-            site itself and my static builder on my <a href=
+            and as little javascript as needed. You can view the
+            source code for the site itself and my static builder
+            on my <a href=
             "https://github.com/rowedahelicon/rowedahelicon.com">Github
             page.</a><br>
             <br>
@@ -86,7 +87,7 @@
         </section>
         <section id="website" class="pb-5">
           <h2 class="header-2 text-4xl aero text-center">My
-          supported ideas, techologies, and ethos.</h2>
+          supported ideas, technologies, and ethos.</h2>
           <div class="p-4">
             I believe in digital freedom. The internet is a place
             where people can bask in the collection of all of
@@ -129,7 +130,7 @@
           "https://furryring.neocities.org/onionring-variables.js"></script>
           
           <script src=
-          "https://furryring.neocities.org/onionring-widget.js"></script>
+          "https://rowedahelicon.com/scripts/onionring-widget.js"></script>
         </div>
         <div>
           <a href="https://rowedahelicon.com/humans.txt"><img src=
@@ -140,6 +141,11 @@
     </footer>
   </div>
   <div role="contentinfo">
+    <div id="quote" class="ui-monospace text-center text-gray-400"
+    style="font-size: 10pt;">
+      "So I believe in a universe that doesn't care and people who
+      do."
+    </div>
     <p class="text-center text-gray-300 text-xs mb-4">Made with
     &lt;3 by <a href="https://rowdythecrux.dev" target=
     "_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href=
@@ -148,5 +154,28 @@
     "https://rowedahelicon.com/colophon">Colophon</a> :: <a href=
     "https://rowedahelicon.com/roadmap">Roadmap</a></p>
   </div>
+  <script>
+    const quotes = [
+        "So I believe in a universe that doesn't care and people who do.",
+        "Your eyes tell me I'm still alive. And no matter what else happens... It's perfect when you're right by my side.",
+        "You arrived, a soft slow end of time, saying if all we saw were bright lights, darkness is what we'd try to find.",
+        "Are you a failure? Hmm, I don't know. I'm not sure what I was trying to do.",
+        "The woods are lovely, dark, and deep. But I have promises to keep, and miles to go before I sleep.",
+        "Though my soul may set in darkness, it will rise in perfect light.",
+        "I have loved the stars too truly to be fearful of the night.",
+        "At the end of everything, hold on to anything.",
+        "Nothing is going to save us forever, but a lot of things can save us today.",
+        "Live and drink.",
+        "You can just do things.",
+        "Happiness for everybody, free of charge, and may no one be left behind!",
+        "Despite everything, it's still you.",
+        "When the power of love beats the love of power, the world knows peace",
+        "Today is all we have, party like there is no tomorrow!",
+        "Luck is the best thing to have!"
+
+    ];
+    quote = Math.floor(Math.random() * quotes.length);
+    document.getElementById('quote').innerHTML = `"${quotes[quote]}"`;
+  </script>
 </body>
 </html>
