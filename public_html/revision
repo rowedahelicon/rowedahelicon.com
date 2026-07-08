@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>Revision History</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1783498757">
+  "https://rowedahelicon.com/css/tw.min.css?v=1783500008">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -59,6 +59,16 @@
           History</h2>A brief overview of changes made to this
           website!<br>
           <div class="space-y-5">
+            <div class="p-2" id="7-8-2026">
+              <h2 class="align-middle text-xl text-gray-400">
+              7/8/2026</h2>
+              <ul class="list-inside list-disc">
+                <li>Fixed assorted mistakes</li>
+                <li>Reorganized Index page</li>
+                <li>Tweaked the apperance of the Furrylist
+                widget</li>
+              </ul>
+            </div>
             <div class="p-2" id="1-7-2026">
               <h2 class="align-middle text-xl text-gray-400">
               1/7/2026</h2>
@@ -245,7 +255,7 @@
     &lt;3 by <a href="https://rowdythecrux.dev" target=
     "_blank">Rowedahelicon</a> :: Crucis Nexus 227 - <a href=
     "https://rowedahelicon.com/revision">Revision: 008
-    (1/7/2026)</a> :: <a href=
+    (7/8/2026)</a> :: <a href=
     "https://rowedahelicon.com/colophon">Colophon</a> :: <a href=
     "https://rowedahelicon.com/roadmap">Roadmap</a></p>
   </div>
