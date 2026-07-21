@@ -64,6 +64,9 @@ $music['leithross'] = array('title' => 'Leith Ross', 'url' => 'https://leithross
 $music['russelbuck'] = array('title' => 'russelbuck', 'url' => 'https://linktr.ee/russl');
 $music['witan'] = array('title' => 'Witan', 'url' => 'https://music.youtube.com/channel/UC7ovIRlkNTok0yRBlm2dspg');
 $music['alexandredesplat'] = array('title' => 'Alexandre Desplat', 'url' => 'https://www.alexandredesplat.net/index.php');
+$music['lacheque'] = array('title' => 'Lacheque', 'url' => 'https://lacheque.net/');
+$music['goreshit'] = array('title' => 'Goreshit', 'url' => 'https://goreshit.bandcamp.com/music');
+$music['thescaryjokes'] = array('title' => 'The Scary Jokes', 'url' => 'https://thescaryjokes.com/');
 //$music[''] = array('title' => '', 'url' => '');
 
 ksort($music);

@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>What I do.</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1784599136">
+  "https://rowedahelicon.com/css/tw.min.css?v=1784605477">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -56,7 +56,10 @@
       <div class="space-y-5">
         <section id="preamble" class="pb-5">
           <div class="p-4">
-            I like to design, build, and maintain websites!<br>
+            <div class="text-center pb-4">
+              <b>THIS PAGE IS STILL A WORK IN PROGRESS.</b>
+            </div>I like to design, build, and maintain
+            websites!<br>
             I've write and maintain SourceMod plugins.<br>
             I do illustrations.<br>
             I also like to make fun little scripts and tools.<br>
@@ -76,7 +79,10 @@
             experience with large scale projects.<br>
             <br>
             Like the work I do? Consider hiring me, buying me a
-            Ko-fi, or supporting me on Patreon!<br>
+            <a href="https://ko-fi.com/rowedahelicon">Ko-fi</a>, or
+            supporting me on <a href=
+            "https://www.patreon.com/rowedahelicon">Patreon</a>!<br>
+
             <br>
             <div class="grid grid-cols-1 md:grid-cols-4">
               <div>
@@ -138,30 +144,30 @@
         <section id="websites">
           <div class="px-4">
             <h2 class="header-2 text-4xl aero">
-            Websites</h2><span class="text-green-500">Actively
-            Maintained</span> <a href="#"><b>This site</b></a> My
-            home base | <a href=
+            Websites</h2><span class=
+            "text-green-500">Ongoing</span> <a href="#"><b>This
+            site</b></a> My home base | <a href=
             "https://github.com/rowedahelicon/rowedahelicon.com">Github</a><br>
 
-            <span class="text-green-500">Actively Maintained</span>
-            <a href="https://rowdythecrux.dev"><b>Social Media
+            <span class="text-green-500">Ongoing</span> <a href=
+            "https://rowdythecrux.dev"><b>Social Media
             Landing</b></a> My personal "linktree" clone. |
             <a href="https://github.com/rowedahelicon/rowdythecrux.dev">
             Github</a><br>
-            <span class="text-green-500">Actively Maintained</span>
-            <a href="https://scritch.works"><b>ScritchWorks</b></a>
-            My art portfolio / Business.<br>
-            <span class="text-green-500">Actively Maintained</span>
-            <a href="https://scg.wtf"><b>Southern Cross
-            Gaming</b></a> My furry gaming community.<br>
-            <span class="text-green-500">Actively Maintained</span>
-            <a href="https://thestoa.blog"><b>The Stoa</b></a> A
-            blog about internet community stuff. | <a href=
+            <span class="text-green-500">Ongoing</span> <a href=
+            "https://scritch.works"><b>ScritchWorks</b></a> My art
+            portfolio / Business.<br>
+            <span class="text-green-500">Ongoing</span> <a href=
+            "https://scg.wtf"><b>Southern Cross Gaming</b></a> My
+            furry gaming community.<br>
+            <span class="text-green-500">Ongoing</span> <a href=
+            "https://thestoa.blog"><b>The Stoa</b></a> A blog about
+            internet community stuff. | <a href=
             "https://github.com/rowedahelicon/TheStoa">Github</a><br>
 
-            <span class="text-green-500">Actively Maintained</span>
-            <a href="https://cruxes.space/"><b>Cruxes.Space</b></a>
-            An active archive of my microblog posts.<br>
+            <span class="text-green-500">Ongoing</span> <a href=
+            "https://cruxes.space/"><b>Cruxes.Space</b></a> An
+            active archive of my microblog posts.<br>
           </div>
         </section>
         <section id="plugins">
@@ -169,6 +175,31 @@
             <h2 class="header-2 text-4xl aero">Sourcemod
             Plugins</h2>
             <div class="space-y-2">
+              <div>
+                <span class="text-orange-500">Maintenance
+                Mode</span> <a href=
+                "https://github.com/rowedahelicon/Burnburnburn">Burn
+                Burn Burn</a> • Enables <a href=
+                "https://www.youtube.com/watch?v=xinRD8b458g">unused
+                Pyro kill animations</a> included in the Pyro
+                update.
+              </div>
+              <div>
+                <span class="text-orange-500">Maintenance
+                Mode</span> <a href=
+                "https://github.com/rowedahelicon/GiftGrabber">Gift
+                Grabber</a> • Lets you become a ghost to grab your
+                Halloween gift. Valve removed server gift drops but
+                I have used this code in other Ghost applications.
+              </div>
+              <div>
+                <span class="text-orange-500">Maintenance
+                Mode</span> <a href=
+                "https://github.com/rowedahelicon/Steam-Security-Check">
+                Steam Security Check</a> • Kicks players connecting
+                to a server that haven't setup their steam account.
+                Used for filtering bots.
+              </div>
               <div>
                 <span class="text-gray-500">Archived</span>
                 <a href="https://github.com/rowedahelicon/MvM-Cash-Exploit-Fix">
@@ -197,29 +228,6 @@
                 oversight in how uber charge upgrades worked for
                 the Vaccinator.
               </div>
-              <div>
-                <span class="text-gray-500">Inactive</span>
-                <a href="https://github.com/rowedahelicon/Burnburnburn">
-                Burn Burn Burn</a> • Enables <a href=
-                "https://www.youtube.com/watch?v=xinRD8b458g">unused
-                Pyro kill animations</a> included in the Pyro
-                update.
-              </div>
-              <div>
-                <span class="text-gray-500">Inactive</span>
-                <a href="https://github.com/rowedahelicon/GiftGrabber">
-                Gift Grabber</a> • Lets you become a ghost to grab
-                your Halloween gift. Valve removed server gift
-                drops but I have used this code in other Ghost
-                applications.
-              </div>
-              <div>
-                <span class="text-gray-500">Inactive</span>
-                <a href="https://github.com/rowedahelicon/Steam-Security-Check">
-                Steam Security Check</a> • Kicks players connecting
-                to a server that haven't setup their steam account.
-                Used for filtering bots.
-              </div>
             </div>
           </div>
         </section>
@@ -228,12 +236,31 @@
             <h2 class="header-2 text-4xl aero">Misc</h2>
             <div class="space-y-2">
               <div>
-                <a href=
-                "https://www.scg.wtf/wiki/Poe_and_Arty_(Bots)"><b>Poe
-                and Arty</b></a> • <span class=
-                "text-green-500">Actively Maintained</span> • A
-                pair of chat bots I made to help manage my gaming
-                community. Built with Node JS.
+                <span class="text-green-500">Ongoing</span>
+                <a href="https://www.scg.wtf/wiki/Poe_and_Arty_(Bots)">
+                <b>Poe and Arty</b></a> • A pair of chat bots I
+                made to help manage my gaming community. Built with
+                Node JS.
+              </div>
+              <div>
+                <span class="text-green-500">Ongoing</span>
+                Krossposter • A single file html/javascript page
+                for posting things on multiple social media pages.
+              </div>
+              <div>
+                <span class="text-green-500">Ongoing</span> Trello
+                Thing • A series of scripts I wrote to manage my
+                art commissions using <a href=
+                "https://developer.atlassian.com/cloud/trello/rest/api-group-actions/">
+                Trello's API</a> as a GUI.
+              </div>
+              <div>
+                <span class="text-green-500">Ongoing</span> CRUX •
+                A <a href=
+                "https://en.wikipedia.org/wiki/Create,_read,_update_and_delete">
+                CRUD</a> style web management panel designed
+                specifically for artists managing commissions and
+                blogs.
               </div>
             </div>
           </div>
