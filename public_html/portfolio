@@ -6,7 +6,7 @@
   <meta charset="UTF-8">
   <title>What I do.</title>
   <link rel="stylesheet" href=
-  "https://rowedahelicon.com/css/tw.min.css?v=1783500008">
+  "https://rowedahelicon.com/css/tw.min.css?v=1784599136">
   <link rel="icon" type="image/x-icon" href=
   "https://rowedahelicon.com/images/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href=
@@ -56,66 +56,185 @@
       <div class="space-y-5">
         <section id="preamble" class="pb-5">
           <div class="p-4">
-            <h2 class="header-2 text-4xl aero">Relevant
-            skills</h2>Languages: PHP, SourcePawn, C++, C#,
-            Java<br>
-            Technologies: Laravel, Node JS<br>
-            Operating Systems: Linux, Windows
+            I like to design, build, and maintain websites!<br>
+            I've write and maintain SourceMod plugins.<br>
+            I do illustrations.<br>
+            I also like to make fun little scripts and tools.<br>
+            <br>
+            I like to learn, make, and maintain new things. I love
+            puzzles and solving problems. This page demonstrates
+            what I've done or currently doing, and the skills I've
+            picked up along the way.<br>
+            <br>
+            I rarely use frameworks, I like do to things by paw.
+            <b>I do not, and will never, use AI shit.</b><br>
+            <br>
+            Outside of technical skills, I am or have been a
+            saleswoman, support technician, public speaker,
+            community organizer, and queer rights activist. I
+            connect and network with people daily, and have had
+            experience with large scale projects.<br>
+            <br>
+            Like the work I do? Consider hiring me, buying me a
+            Ko-fi, or supporting me on Patreon!<br>
+            <br>
+            <div class="grid grid-cols-1 md:grid-cols-4">
+              <div>
+                <b>Programming</b><br>
+                <ul>
+                  <li>Python</li>
+                  <li>PHP</li>
+                  <li>C++</li>
+                  <li>SQL</li>
+                  <li>SourcePawn</li>
+                  <li>Java</li>
+                </ul>
+              </div>
+              <div>
+                <b>Infastructure</b><br>
+                <ul>
+                  <li>Linux</li>
+                  <li>Docker</li>
+                  <li>System Administration</li>
+                </ul>
+              </div>
+              <div>
+                <b>Web</b><br>
+                <ul>
+                  <li>Node.JS</li>
+                  <li>API Stuff</li>
+                  <li>Tailwindcss</li>
+                </ul>
+              </div>
+              <div>
+                <b>Other</b><br>
+                <ul>
+                  <li>Git</li>
+                  <li>Community Organizing</li>
+                  <li>Public Speaking</li>
+                  <li>Sales</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </section>
-        <section id="websites" class="pb-5">
-          <div class="p-4">
-            <h2 class="header-2 text-4xl aero">
-            Websites</h2><a href="https://rowdythecrux.dev"><b>Social
-            Media Landing</b></a> My personal "linktree" clone. |
-            <a href=
-            "https://github.com/rowedahelicon/rowdythecrux.dev">Github</a>
-            | <span class="text-green-500">Actively
-            Maintained</span><br>
-            <a href="https://scritch.works"><b>ScritchWorks</b></a>
-            My art portfolio / Business. | <span class=
-            "text-green-500">Actively Maintained</span><br>
-            <a href="https://scg.wtf"><b>Southern Cross
-            Gaming</b></a> My furry gaming community. |
-            <span class="text-green-500">Actively
-            Maintained</span><br>
-            <a href="https://thestoa.blog"><b>The Stoa</b></a> A
-            blog about internet community stuff. | <a href=
-            "https://github.com/rowedahelicon/TheStoa">Github</a> |
-            <span class="text-green-500">Actively
-            Maintained</span><br>
-          </div>
-        </section>
-        <section id="plugins" class="pb-5">
-          <div class="p-4">
-            <h2 class="header-2 text-4xl aero">Sourcemod
-            Plugins</h2>
-            <ul class="list-inside list-disc">
-              <li>
-                <a href=
-                "https://github.com/rowedahelicon/MvM-Cash-Exploit-Fix">
-                MvM Cash Exploit Fix (Archived)</a> - A serverside
-                fix for a exploit in Mann Versus Machine that
-                allowed players to obtain extra money. This was
-                fixed by Valve eventually.
-              </li>
+        <section id="hireme">
+          <div class="px-4">
+            <h2 class="header-2 text-4xl aero">What I can do for
+            you!</h2>
+            <ul class="list-disc list-inside">
+              <li>Hire me to fix up your old websites!</li>
+              <li>And/Or keep them up to date!</li>
+              <li>Or even build new ones!</li>
+              <li>I can build you silly little tools!</li>
+              <li>I know how servers work and I can run them for
+              you!</li>
+              <li>I'm social and can interact with
+              clients/customers on your behalf!</li>
+              <li>I can draw stuff!</li>
             </ul>
           </div>
         </section>
-        <section id="websites" class="pb-5">
-          <div class="p-4">
+        <section id="websites">
+          <div class="px-4">
+            <h2 class="header-2 text-4xl aero">
+            Websites</h2><span class="text-green-500">Actively
+            Maintained</span> <a href="#"><b>This site</b></a> My
+            home base | <a href=
+            "https://github.com/rowedahelicon/rowedahelicon.com">Github</a><br>
+
+            <span class="text-green-500">Actively Maintained</span>
+            <a href="https://rowdythecrux.dev"><b>Social Media
+            Landing</b></a> My personal "linktree" clone. |
+            <a href="https://github.com/rowedahelicon/rowdythecrux.dev">
+            Github</a><br>
+            <span class="text-green-500">Actively Maintained</span>
+            <a href="https://scritch.works"><b>ScritchWorks</b></a>
+            My art portfolio / Business.<br>
+            <span class="text-green-500">Actively Maintained</span>
+            <a href="https://scg.wtf"><b>Southern Cross
+            Gaming</b></a> My furry gaming community.<br>
+            <span class="text-green-500">Actively Maintained</span>
+            <a href="https://thestoa.blog"><b>The Stoa</b></a> A
+            blog about internet community stuff. | <a href=
+            "https://github.com/rowedahelicon/TheStoa">Github</a><br>
+
+            <span class="text-green-500">Actively Maintained</span>
+            <a href="https://cruxes.space/"><b>Cruxes.Space</b></a>
+            An active archive of my microblog posts.<br>
+          </div>
+        </section>
+        <section id="plugins">
+          <div class="px-4">
+            <h2 class="header-2 text-4xl aero">Sourcemod
+            Plugins</h2>
+            <div class="space-y-2">
+              <div>
+                <span class="text-gray-500">Archived</span>
+                <a href="https://github.com/rowedahelicon/MvM-Cash-Exploit-Fix">
+                MvM Cash Exploit Fix</a> • A serverside fix for a
+                exploit in Mann Versus Machine that allowed players
+                to obtain extra money.
+              </div>
+              <div>
+                <span class="text-gray-500">Archived</span>
+                <a href="https://github.com/rowedahelicon/Loadout-Respawn-Fix">
+                Loadout Respawn Fix</a> • A serverside fix for a
+                exploit that allowed players to teleport to their
+                spawn from an enemy's spawn.
+              </div>
+              <div>
+                <span class="text-gray-500">Archived</span>
+                <a href="https://github.com/rowedahelicon/Stuck-in-spectate-fix">
+                Stuck in Spectate Fix</a> • A serverside fix for a
+                race condition bug that would trap a player in
+                spectator mode.
+              </div>
+              <div>
+                <span class="text-gray-500">Archived</span>
+                <a href="https://github.com/rowedahelicon/MvM-Vaccinator-Fix">
+                MvM Vaccinator Fix</a> • A serverside fix for an
+                oversight in how uber charge upgrades worked for
+                the Vaccinator.
+              </div>
+              <div>
+                <span class="text-gray-500">Inactive</span>
+                <a href="https://github.com/rowedahelicon/Burnburnburn">
+                Burn Burn Burn</a> • Enables <a href=
+                "https://www.youtube.com/watch?v=xinRD8b458g">unused
+                Pyro kill animations</a> included in the Pyro
+                update.
+              </div>
+              <div>
+                <span class="text-gray-500">Inactive</span>
+                <a href="https://github.com/rowedahelicon/GiftGrabber">
+                Gift Grabber</a> • Lets you become a ghost to grab
+                your Halloween gift. Valve removed server gift
+                drops but I have used this code in other Ghost
+                applications.
+              </div>
+              <div>
+                <span class="text-gray-500">Inactive</span>
+                <a href="https://github.com/rowedahelicon/Steam-Security-Check">
+                Steam Security Check</a> • Kicks players connecting
+                to a server that haven't setup their steam account.
+                Used for filtering bots.
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="misc">
+          <div class="px-4">
             <h2 class="header-2 text-4xl aero">Misc</h2>
-            <div class="px-4">
-              <h2 class="text-2xl aero">Poe & Arty</h2>
-              <section id="scgbots" class=
-              "pb-5 border-dotted border-2 border-gray-500 p-2">
-                Poe and Arty are a set of bots that reside in the
-                SCG Steam and Discord chats. They are designed to
-                inform people of events, birthdays, updates, and so
-                on. They are built with Node JS. They used an
-                abandonded Discord API package that I maintain
-                specifically for them.
-              </section>
+            <div class="space-y-2">
+              <div>
+                <a href=
+                "https://www.scg.wtf/wiki/Poe_and_Arty_(Bots)"><b>Poe
+                and Arty</b></a> • <span class=
+                "text-green-500">Actively Maintained</span> • A
+                pair of chat bots I made to help manage my gaming
+                community. Built with Node JS.
+              </div>
             </div>
           </div>
         </section>
@@ -185,7 +304,7 @@
         "You can just do things.",
         "Happiness for everybody, free of charge, and may no one be left behind!",
         "Despite everything, it's still you.",
-        "When the power of love beats the love of power, the world knows peace",
+        "When the power of love beats the love of power, the world knows peace.",
         "Today is all we have, party like there is no tomorrow!",
         "Luck is the best thing to have!"
 
