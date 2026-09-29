@@ -56,7 +56,7 @@ $music['mason'] = array('title' => 'Mason', 'url' => 'https://www.musicofmason.c
 $music['deadmau5'] = array('title' => 'Deadmau5', 'url' => 'https://deadmau5.com/');
 $music['djfresh'] = array('title' => 'DJ Fresh', 'url' => 'https://en.wikipedia.org/wiki/DJ_Fresh');
 $music['4lung'] = array('title' => '4Lung', 'url' => 'https://rawrdcore.bandcamp.com/');
-$music['madilynmei'] = array('title' => 'Madilyn Mei', 'url' => 'https://www.madilynmei.com/');
+$music['eliomei'] = array('title' => 'Elio Mei', 'url' => 'https://www.eliomei.com/');
 $music['puppygirl'] = array('title' => 'Puppy Girl', 'url' => 'https://linktr.ee/puppygirlmusic/');
 $music['ochre'] = array('title' => 'Ochre', 'url' => 'https://ochre.bandcamp.com/');
 $music['beetlebug'] = array('title' => 'Beetlebug', 'url' => 'https://beetlebug.komi.io/');
@@ -67,6 +67,10 @@ $music['alexandredesplat'] = array('title' => 'Alexandre Desplat', 'url' => 'htt
 $music['lacheque'] = array('title' => 'Lacheque', 'url' => 'https://lacheque.net/');
 $music['goreshit'] = array('title' => 'Goreshit', 'url' => 'https://goreshit.bandcamp.com/music');
 $music['thescaryjokes'] = array('title' => 'The Scary Jokes', 'url' => 'https://thescaryjokes.com/');
+$music['hitoritori'] = array('title' => 'Hitori Tori', 'url' => 'https://hitoritor1.bandcamp.com/');
+$music['nelward'] = array('title' => 'Nelward', 'url' => 'https://www.nelward.com/');
+$music['willwood'] = array('title' => 'Will Wood', 'url' => 'https://www.willwood.net/');
+$music['idadeerz'] = array('title' => 'ida deerz', 'url' => 'https://idadeerz.bandcamp.com/');
 //$music[''] = array('title' => '', 'url' => '');
 
 ksort($music);

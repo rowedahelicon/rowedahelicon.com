@@ -4,7 +4,7 @@
   <meta name="generator" content=
   "HTML Tidy for HTML5 for Linux version 5.6.0">
   <meta charset="UTF-8">
-  <title>Interests</title>
+  <title>Quotes and Quips</title>
   <link rel="stylesheet" href=
   "https://rowedahelicon.com/css/tw.min.css?v=1790674581">
   <link rel="icon" type="image/x-icon" href=
@@ -17,10 +17,9 @@
   "https://rowedahelicon.com/images/favicon-16x16.png">
   <link rel="manifest" href=
   "https://rowedahelicon.com/site.webmanifest">
-  <meta property="og:title" content="Interests">
-  <meta property="og:description" content=
-  "What makes my tail wag~">
-  <meta property="og:site_name" content="Interests">
+  <meta property="og:title" content="Quotes and Quips">
+  <meta property="og:description" content="">
+  <meta property="og:site_name" content="Quotes and Quips">
   <meta property="og:type" content="profile">
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:site" content="@rowedahelicon">
@@ -54,65 +53,49 @@
       <div class="h-12 stripes-2"></div>
     </header>
     <main class="p-4 overflow-auto">
-      <div>
-        <h2 class="header-2 text-4xl aero text-center">
-        Interests</h2>
-        <section id="interests" class="pb-5">
-          <h3 class=
-          "header-2 text-3xl aero text-gray-400 text-center">Things
-          that make my tail wag~!</h3>
-          <div class="grid grid-cols-1 md:grid-cols-4 mt-2">
-            <div class="text-center">
-              <h4 class="text-2xl">Arts</h4>
-              <ul class="list-desc">
-                <li>
-                  <a href=
-                  "https://en.wikipedia.org/wiki/Graphic_design">Graphic
-                  Design</a>
-                </li>
-                <li>
-                  <a href=
-                  "https://en.wikipedia.org/wiki/Skeuomorph">Skeuomorphism</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="text-2xl text-center">Nature</h4>
-              <ul class="list-desc">
-                <li>Astronomy</li>
-                <li>Biology</li>
-                <li>Geology</li>
-                <li>Cosmology</li>
-                <li>Nephology</li>
-                <li>
-                  <a href=
-                  "https://en.wikipedia.org/wiki/Climatology">Climatology</a>
-                </li>
-                <li>
-                  <a href=
-                  "https://en.wikipedia.org/wiki/Radiobiology">Radiobiology</a>
-                </li>
-                <li>
-                  <a href=
-                  "https://en.wikipedia.org/wiki/Crystallography">Crystallography</a>
-                </li>
-                <li>
-                  <a href=
-                  "https://en.wikipedia.org/wiki/Oceanography">Oceanography</a>
-                </li>
-                <li>Trees</li>
-                <li>Forests</li>
-                <li>Plants</li>
-                <li>Fungi</li>
-                <li>Petrichor</li>
-              </ul>
-            </div>
-            <div>
-              <h4 class="text-2xl text-center">People</h4>
-            </div>
-            <div>
-              <h4 class="text-2xl text-center">Sciences</h4>
-            </div>
+      <div class="space-y-5">
+        <section id="website" class="pb-5">
+          <h2 class="header-2 text-3xl text-center">Quotes and
+          Quips</h2>
+          <div class="p-4">
+            <ul class="list-disc space-y-2">
+              <li>So I believe in a universe that doesn't care and
+              people who do.</li>
+              <li>Your eyes tell me I'm still alive. And no matter
+              what else happens... It's perfect when you're right
+              by my side.</li>
+              <li>You arrived, a soft slow end of time, saying if
+              all we saw were bright lights, darkness is what we'd
+              try to find.</li>
+              <li>Are you a failure? Hmm, I don't know. I'm not
+              sure what I was trying to do.</li>
+              <li>The woods are lovely, dark, and deep. But I have
+              promises to keep, and miles to go before I
+              sleep.</li>
+              <li>Though my soul may set in darkness, it will rise
+              in perfect light.</li>
+              <li>I have loved the stars too truly to be fearful of
+              the night.</li>
+              <li>At the end of everything, hold on to
+              anything.</li>
+              <li>Nothing is going to save us forever, but a lot of
+              things can save us today.</li>
+              <li>Live and drink.</li>
+              <li>You can just do things.</li>
+              <li>Happiness for everybody, free of charge, and may
+              no one be left behind!</li>
+              <li>Despite everything, it's still you.</li>
+              <li>When the power of love beats the love of power,
+              the world knows peace.</li>
+              <li>Today is all we have, party like there is no
+              tomorrow!</li>
+              <li>Luck is the best thing to have!</li>
+              <li>I feel guilty cause I'm driving you to the pain
+              dimension.</li>
+              <li>My screen crashed...I think my gra-...</li>
+              <li>An NDA is a lock and three beers is a key.</li>
+              <li>I love that gay little clown.</li>
+            </ul>
           </div>
         </section>
       </div>
@@ -124,7 +107,7 @@
           "https://github.com/rowedahelicon/rowedahelicon.com"
           aria-label="Source Code"><span class=
           "icon-github"></span></a> <a href=
-          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/interests"
+          "https://validator.w3.org/nu/?doc=https://rowedahelicon.com/quotes"
           aria-label="Valid HTML"><span class=
           "icon-html5"></span></a> <a href=
           "https://jigsaw.w3.org/css-validator/check/referer"
